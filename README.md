@@ -1,5 +1,4 @@
 # Psycolops
-<h1>Portfolio Website</h1>
 <p>This is a portfolio website I developed for a Designer and Art Director Aspirant, based on the Figma designs provided by them. The goal was to closely replicate the designs while ensuring a fully responsive and functional user experience across all devices.</p>
 <h2>🚀 Tech Stack:</h2>
 <ul>
