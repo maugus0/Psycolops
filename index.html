@@ -117,7 +117,7 @@
         gap           : 40px;
         align-items   : center;
         }
-            /* Project Cards */
+          /* Project Cards */
         .project-card {
         display        : flex;
         align-items    : center;
@@ -240,79 +240,166 @@
         transform: translateY(0);
         }
         }
-        /* Sections */
-        .section {
-            padding: 80px 20px;
-        }
+        /* Sections */    
+        /* Import Poppins Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+        /* Services Section */
         .services {
-            text-align: left;
-            padding   : 50px 20px;
+        text-align: left;
+        padding: 50px 20px;
         }
         .services h2 {
-            margin-left: 7%;
-            margin-bottom: 4%;
+        margin-left: 7%;
+        margin-bottom: 4%;
+        font-family: 'Poppins', sans-serif;
         }
+        /* Container for Cards */
         .services-container {
-            display        : flex;
-            flex-wrap      : wrap;
-            justify-content: center;
-            gap            : 20px;
+        display: flex;
+        justify-content: center; /* Centers all cards */
+        gap: 20px;
+        flex-wrap: nowrap;
+        overflow-x: auto; /* Enables smooth horizontal scrolling */
+        scroll-snap-type: x mandatory;
+        padding-bottom: 20px;
+        width: 100%;
         }
+        /* Individual Service Card */
         .service-card {
-            display       : flex;
-            align-items   : left;
-            padding       : 20px;
-            border-radius : 10px;
-            width         : 100%;
-            max-width     : 280px;     /* Ensures cards stay in the same row */
-            position      : relative;
-            flex-direction: column;
-            text-align    : left;
-            color         : black;     /* Text color is now black */
-       }
-       .square {
-            width        : 50px;
-            height       : 50px;
-            background   : black;
-            margin-bottom: 10px;
-            float        : left;
-       }
-       .service-content {
-            display       : flex;
-            flex-direction: column;
-            gap           : 10px;
-       }
-       .service-card h3 {
-            margin   : 0;
-            font-size: 1.2rem;
-            color    : black;   /* Ensuring black text */
-       }
-       .service-card p {
-            font-size  : 1rem;
-            margin     : 10px 0;
-            line-height: 1.5;
-            color      : black;  /* Ensuring black text */
-       }
-       .service-card button {
-           background   : black;
-           color        : white;
-           padding      : 8px 15px;
-           border       : none;
-           border-radius: 5px;
-           cursor       : pointer;
-           align-self   : flex-start;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Ensures content is left-aligned */
+        padding: 30px;
+        border-radius: 10px;
+        width: 340px;
+        height: 548px;
+        text-align: left;
+        color: black;
+        justify-content: flex-start;
+        font-family: 'Poppins', sans-serif;
+        scroll-snap-align: center;
+        flex: 0 0 auto;
         }
-        /* Responsive Design */
-        @media (max-width: 1024px) {
-        .services-container {
-            justify-content: center;
-         }
+        /* Uniform Box Layout */
+        .service-card .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
         }
+        /* Square Box */
+        .square {
+        width: 57px;
+        height: 59px;
+        background: black;
+        margin-bottom: 20px;
+        flex-shrink: 0; /* Prevents resizing */
+        }
+        /* Title */
+        .service-card h3 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 40px;
+        color: black;
+        margin: 0;
+        flex-shrink: 0;
+        height: 80px; /* Ensures all titles are aligned */
+        display: flex;
+        align-items: center; /* Centers text vertically */
+        }
+        /* Description */
+        .service-card p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        color: black;
+        margin: 0;
+        flex-shrink: 0;
+        height: 168px; /* Ensures all descriptions are aligned */
+        display: flex;
+        align-items: center; /* Centers text vertically */
+        }
+        /* Button */
+        .service-card button {
+        background: black;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 100%;
+        padding: 12px 15px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        align-self: flex-start;
+        height: 42px;
+        width: 140px; /* Ensures uniform button size */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+        }
+        /* Mobile Styling */
         @media (max-width: 768px) {
+        .services-container {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-padding-left: 20px;
+        justify-content: flex-start;
+        }
         .service-card {
-            max-width: 100%;
-            justify-content: left;
-         }
+        flex: 0 0 85%;
+        scroll-snap-align: start;
+        width: 90vw;
+        max-width: 340px;
+        }
+        }
+        /* Keyframes for Entrance Animation */
+        @keyframes fadeInUp {
+        from {
+        opacity: 0;
+        transform: translateY(30px);
+        }
+        to {
+        opacity: 1;
+        transform: translateY(0);
+        }
+        }
+        /* Apply Entrance Animation */
+        .service-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+        border-radius: 10px;
+        width: 340px;
+        height: 548px;
+        text-align: left;
+        color: black;
+        justify-content: flex-start;
+        font-family: 'Poppins', sans-serif;
+        scroll-snap-align: center;
+        flex: 0 0 auto;
+        opacity: 0; /* Initially hidden */
+        animation: fadeInUp 0.8s ease-in-out forwards;
+        }
+        /* Delay each card animation for a staggered effect */
+        .service-card:nth-child(1) { animation-delay: 0.2s; }
+        .service-card:nth-child(2) { animation-delay: 0.4s; }
+        .service-card:nth-child(3) { animation-delay: 0.6s; }
+        .service-card:nth-child(4) { animation-delay: 0.8s; }
+        /* Hover Effect: Lift + Glow */
+        .service-card:hover {
+        transform: translateY(-8px);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        /* Active Effect: Slight Press */
+        .service-card:active {
+        transform: translateY(2px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         }
         /* Footer */
         .footer {
@@ -635,8 +722,8 @@
           <div class="service-card" style="background: #FF6F50;">
             <div class="square"></div>
             <div class="service-content">
-              <h3>MOTION GRAPHIC & 3D VIDEOS</h3>
-              <p>Motion design, 3D animations, engaging content creation, visual storytelling, and high-quality rendering.</p>
+              <h3>MOTION GRAPHIC</h3>
+              <p>User research, User Flow, Wireframing, User Experience, User Interface, Prototyping </p>
               <button>Branding Work ></button>
             </div>
           </div>
@@ -645,7 +732,7 @@
             <div class="square"></div>
             <div class="service-content">
               <h3>ILLUSTRATION</h3>
-              <p>Custom illustrations, vector graphics, artistic visuals, and conceptual sketches.</p>
+              <p>User research, User Flow, Wireframing, User Experience, User Interface, Prototyping </p>
               <button>Branding Work ></button>
             </div>
           </div>
