@@ -1,5 +1,6 @@
 # Psycolops
 <p>This is a portfolio website I developed for a Designer and Art Director Aspirant, based on the Figma designs provided by them. The goal was to closely replicate the designs while ensuring a fully responsive and functional user experience across all devices.</p>
+<p>Deployed on Github Pages for Preview - https://maugus0.github.io/Psycolops/</p>
 <h2>🚀 Tech Stack:</h2>
 <ul>
     <li><strong>HTML, CSS, Bootstrap</strong> – For a clean and structured layout</li>
@@ -16,4 +17,3 @@
     <li>✅ Pixel-perfect implementation with minor optimizations for performance</li>
 </ul>
 <p>This prototype serves as a foundation for the designer's portfolio, bringing their creative vision to life while ensuring a seamless experience for visitors. 🚀</p>
-
