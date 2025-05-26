@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <a href="/resume">
+        <a href="https://psycolops.in/">
           <img src={logo} alt="Logo" className="logo" />
         </a>
       </div>

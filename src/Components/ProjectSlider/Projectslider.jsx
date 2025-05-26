@@ -18,28 +18,28 @@ const projects = [
     type: "Branding",
     description: "Rebranding Bal Raksha Bharat to reposition it as an optimistic, future-forward child rights NGO.",
     image: ProjectSlider1,
-    link: "/resume/#bal-raksha"
+    link: "/#bal-raksha"
   },
   {
     title: "Trekkit",
     type: "UI/UX",
     description: "Rebranding Bal Raksha Bharat to reposition it as an optimistic, future-forward child rights NGO.",
     image: ProjectSlider2,
-    link: "/resume/#trekkit-page"
+    link: "/#trekkit-page"
   },
   {
     title: "Mindshare",
     type: "Branding",
     description: "Designing an identity that reflects collaboration, connection, and possibility.",
     image: ProjectSlider3,
-    link: "/resume/#project-mindset"
+    link: "/#project-mindset"
   },
   {
     title: "The School of Raya",
     type: "Branding",
     description: "Branding pitch for an international IB school in Bengaluru, reflecting themes of nature and flow.",
     image: ProjectSlider4,
-    link: "/resume/#raya-page"
+    link: "/#raya-page"
   },
 ];
 

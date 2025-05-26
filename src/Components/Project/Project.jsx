@@ -14,28 +14,28 @@ const projects = [
         title: "Bal Raksha Bharat",
         subtitle: "Logo & Brand Experience",
         desc: "Pitch for Bal Raksha Bharat’s rebranding which aimed to reposition <br/>the company as an optimistic child rights NGO.",
-        link: "/resume/#bal-raksha"
+        link: "/#bal-raksha"
     },
     {
         img: Img2,
         title: "Trekkit",
         subtitle: "App Design & Research",
         desc: "A trekking app aiming to consolidate different aspects of trekking under one <br/> app while also giving them freedom to plan their own adventure",
-        link: "/resume/#trekkit-page"
+        link: "/#trekkit-page"
     },
     {
         img: Img3,
         title: "Mindshare",
         subtitle: "Logo & Brand Experience",
         desc: "Branding done for a design and marketing solutions firm to reflect their <br/> ideas of communication and creating impact",
-        link: "/resume/#project-mindset"
+        link: "/#project-mindset"
     },
     {
         img: Img4,
         title: "The School of Raya",
         subtitle: "App Design & Research",
         desc: "Branding pitch made for an IV league International Board school in Bengaluru <br/> to reflect their ideas of nature and flow",
-        link: "/resume/#raya-page"
+        link: "/#raya-page"
     }
 ];
 
@@ -49,7 +49,7 @@ const ProjectShowcase = () => {
             <div className="custom-container">
                 <div className="heading-project">
                     <p className='font-family'>Some Projects I’ve Worked on</p>
-                    <a href="/resume/#work-page">
+                    <a href="/#work-page">
                         <button className='orange-button-1 padding-less'>See All Projects +</button>
                     </a>
                 </div>
@@ -89,7 +89,7 @@ const ProjectShowcase = () => {
                 ))}
 
                 <div className="botton">
-                    <a href="/resume/#work-page">
+                    <a href="/#work-page">
                         <button className='orange-button-with-poppin'>See More Work ></button>
                     </a>
 
