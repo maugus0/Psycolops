@@ -1,6 +1,11 @@
 # Psycolops
 This is a portfolio website developed for a Designer and Art Director Aspirant, based on the Figma designs provided by them. The goal was to closely replicate the designs while ensuring a fully responsive and functional user experience across all devices.
 
+This is a fully responsive portfolio website using React, faithfully translating a designer’s Figma mockup into a pixel-perfect web experience. The project utilizes React Router, component-based architecture, and SCSS modules for modular, scalable styling. Emphasized performance and responsiveness across devices while maintaining design fidelity.
+
+Please visit the Website - https://www.psycolops.in
+Figma Link by Designer - https://www.figma.com/design/Qd8AdYIjsbeCvzyiT3MBXq/Website-Design?node-id=0-1&p=f&t=bj7huW9YXgRqrZHz-0
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
