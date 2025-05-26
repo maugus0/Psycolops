@@ -24,11 +24,11 @@ const Header = () => {
       </button>
 
       <nav className={`nav-links ${isMenuOpen ? "show" : ""}`}>
-        <a href="/resume" className="only-mobile">HOME</a>
-        <a href="/resume/#about-page">ABOUT</a>
-        <a href="/resume/#work-page">WORK</a>
-        <a href="/resume/#gallery-page">GALLERY</a>
-        <a href="/resume/#404-page" className="experimental-link">
+        <a href="https://psycolops.in/" className="only-mobile">HOME</a>
+        <a href="/#about-page">ABOUT</a>
+        <a href="/#work-page">WORK</a>
+        <a href="/#gallery-page">GALLERY</a>
+        <a href="/#404-page" className="experimental-link">
           <img src={Experimental} alt="" className="experimental-img" />
         </a>
       </nav>
