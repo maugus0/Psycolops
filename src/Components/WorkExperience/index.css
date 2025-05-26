@@ -1,0 +1,147 @@
+.font-700 {
+    font-weight: 700;
+}
+
+.brand-work {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0px 0px;
+}
+
+.weight-300 {
+    font-weight: 200;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.padding-bottom-90 {
+    padding-bottom: 195px;
+}
+
+.padding-bottom-180 {
+    padding-bottom: 18em;
+}
+
+.work-custom {
+    padding-left: 150px;
+    border-left: 1px solid grey;
+    padding-bottom: 120px;
+}
+
+.work-custom ul::before {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: -10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    color: aliceblue;
+
+}
+
+.work-custom ul {
+    position: relative;
+    padding-left: 30px;
+    /* Space for the dot */
+}
+
+.work-custom ul::before {
+    content: '';
+    position: absolute;
+    left: -160px;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    background: #ffffff;
+    /* Make the dot visible */
+    border-radius: 50%;
+}
+
+.padding-work {
+    padding: 80px 0px;
+}
+
+.custom-last-div {
+    padding-bottom: 0px !important;
+}
+.workpage h1 {
+    padding: 60px 140px 0px;
+    font-size: 53px;
+    background-color: #111111;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .padding-work {
+        padding: 40px 20px;
+    }
+
+    .padding-bottom-90 {
+        padding-bottom: 20px;
+    }
+
+    .padding-bottom-180 {
+        padding-bottom: 1em;
+    }
+
+    .work-custom {
+        padding-left: 0px;
+        border-left: none;
+        padding-bottom: 20px;
+    }
+
+    .work-custom ul::before {
+     display: none;
+    }
+
+    .brand-work {
+        padding: 10px 0px;
+    }
+  .font-small-24{
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .work-custom {
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+ .padding-work .font-24 {
+    font-size: 18px;
+}
+.padding-work {
+    padding: 40px;
+}
+.work-custom ul::before {
+    left: -26px;
+    width: 14px;
+    height: 14px;
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width:1390px) {}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+    .brand-work {
+    max-width: 900px;
+}
+.padding-work .font-24 {
+    font-size: 18px;
+}
+.work-custom {
+    padding-left: 80px;
+    padding-bottom: 120px;
+}
+.work-custom ul::before {
+    left: -90px;
+}
+.color-purple.font-48 {
+    font-size: 42px !important;
+}
+}

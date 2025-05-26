@@ -1,0 +1,184 @@
+.fan-sub {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.fan-pic{
+    width: 100%;
+}
+.fan-p{
+    gap: 13px;
+    padding: 40px 0 70px;
+}
+.balraksha-concept {
+    padding: 80px 0px;
+    background: #111111;
+}
+.balraksha-concept .row{
+   padding-top: 60px;
+}
+
+img.BalRakshaImg8 {
+    padding-top: 80px;
+}
+.margin-bottom-80{
+    margin-bottom: 80px;
+}
+.concept-line-1:after {
+    background-color: #656565;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 8%;
+    margin-left: 1rem;
+    position: absolute;
+    top: 50%;
+    width: 90%;
+}
+.concept-line-1 {
+    position: relative;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .balraksha-concept {
+    padding: 40px 20px;
+}
+.balraksha-concept .font-24{
+    font-size: 16px;
+}
+.d-flex {
+    flex-direction: column;
+}
+.balraksha-concept .row {
+    padding-top: 0px;
+}
+.fan-sub {
+    width: 100%;
+}
+.fan-p {
+    padding: 20px 0 20px;
+}
+.bal-raksha-page img{
+    width: 100%;
+}
+.fan-sub img {
+    width: 65%;
+}
+.fan-sub p{
+   font-size: 14px;
+}
+.fan-p.font-20 p {
+    font-size: 14px;
+}
+img.BalRakshaImg8 {
+    padding-top: 0px;
+}
+.bal-raksha-collage {
+    padding: 20px;
+}
+.margin-bottom-80{
+    margin-bottom: 40px;
+}
+.concept-line-1:after {
+   display: none;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .subtitle {
+    font-size: 18px;
+}
+.subtitle:before {
+    height: 26px;
+}
+.balraksha-concept {
+    padding: 40px 20px;
+}
+.fan-p p {
+    font-size: 16px;
+}
+.bal-raksha-collage img{
+    width: 100%;
+}
+img.BalRakshaImg8 {
+    width: 100%;
+}
+.balraksha-concept .col-md-6{
+    width: 100%;
+}
+.bal-raksha-collage {
+    padding: 40px 20px;
+}
+.concept-line:after {
+    left: 17% !important;
+    width: 78% !important;
+}
+.balraksha-concept .row {
+    padding-top: 20px;
+}
+.installation .col-md-8 {
+    width: 100%;
+}
+.installation .col-md-4 {
+    width: 100%;
+}
+.fan-p {
+    padding: 40px 0 0px;
+}
+img.BalRakshaImg8 {
+    padding-top: 40px;
+}
+.custom-size {
+    height: 300px !important;
+    width: 348px;
+}
+.position-slider h4 {
+    font-size: 42px;
+}
+.margin-bottom-80{
+    margin-bottom: 60px;
+}
+.concept-line-1:after {
+    left: 18%;
+    width: 80%;
+}
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width:1390px) {}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+.balraksha-concept {
+    padding: 60px;
+    
+}
+.bal-raksha-page img{
+    width: 100%;
+}
+.bal-raksha-collage {
+    padding: 70px 60px;
+}
+.small-font{
+    font-size: 20px;
+}
+.role-p p {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+p.role-up {
+ font-size: 16px;
+    font-weight: 200;
+}
+.fan-p p {
+    font-size: 18px;
+}
+.fan-sub img {
+    width: 60% !important;
+}
+.fan-sub p {
+    font-size: 14px !important;
+}
+.bal-raksha-content p {
+    font-size: 16px;
+}
+}

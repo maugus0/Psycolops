@@ -1,0 +1,55 @@
+.width-40 {
+    width: 40%;
+
+}
+
+.margin-left-30 {
+    margin-left: 120px;
+}
+
+.mobile-slider {
+    padding-bottom: 120px;
+    background-image: url('../../Assets/Images/mobile-slider-back.png');
+    background-repeat: no-repeat;
+       background-position: 44% 14%;
+    background-size: 18%;
+
+}
+
+.absolute-1 {
+    left: 16%;
+    margin-top: 30px;
+    text-align: left;
+}
+.absolute-2 {
+    top: 30%;
+    right: 11%;
+}
+
+.absolute-3 {
+    right: 25%;
+    bottom: 5%;
+}
+
+.circle-before {
+
+    position: relative;
+    z-index: 1;
+}
+
+.circle-before::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    width: 55px;
+    height: 55px;
+    transform: translate(-50%, -50%);
+    background-color: #272727;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+
+

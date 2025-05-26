@@ -1,0 +1,140 @@
+.rounded img {
+    width: 70px !important;
+    height: 70px;
+    object-fit: contain;
+}
+
+section.ServiceCard {
+    width: 100%;
+    padding: 110px 140px;
+    background-color: #111111;
+}
+
+p.last-service {
+    margin-bottom: 65px;
+}
+
+.font-family-arial {
+    font-family: Arial;
+}
+
+p.last-p {
+    width: 80%;
+}
+.ServiceCard .card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.ServiceCard .card-hover:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Styles */
+
+@media only screen and (min-width: 1025px) and (max-width: 1290px) {
+    .rounded img {
+        width: 17% !important;
+        height: 17%;
+        object-fit: contain;
+        margin-bottom: 10px !important;
+    }
+
+    .rounded p {
+        font-size: 20px !important;
+    }
+
+    p.last-p {
+        font-size: 15px !important;
+    }
+
+    .p-4 {
+        padding: 1rem !important;
+    }
+
+    .font-74 {
+        font-size: 66px !important;
+    }
+
+    .font-52 {
+        font-size: 38px !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    section.ServiceCard {
+    width: 100%;
+    padding: 40px;
+    background-color: #111111;
+}
+
+}
+
+@media (max-width: 768px) {
+    section.ServiceCard {
+        padding: 40px 20px;
+    }
+
+    section.ServiceCard .font-24 {
+        font-size: 18px;
+    }
+
+    .rounded img {
+        width: 20% !important;
+        height: 15%;
+        margin-bottom: 35px !important;
+    }
+
+   .ServiceCard p {
+    font-size: 22px !important;
+}
+    p.last-p {
+        font-size: 14px !important;
+    }
+
+    .ServiceCard .rounded {
+        height: 380px !important;
+        object-fit: cover;
+    }
+.slick-dots li button:before {
+    color: #ffffff !important;
+    font-size: 12px !important;
+}
+
+.ServiceCard .card-hover:hover {
+  transform:none !important;
+}
+p.last-service {
+    margin-bottom: 52px;
+}
+p.mb-5.font-24.para {
+    font-size: 22px !important;
+}
+}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+    .rounded img {
+        width: 70px !important;
+        height: 70px;
+        margin-bottom: 60px !important;
+    }
+
+    .service-title {
+        font-size: 28px !important;
+        line-height: 30px;
+    }
+
+    .last-p {
+        font-size: 18px !important;
+    }
+
+    p.last-service {
+        margin-bottom: 45px;
+    }
+    p.last-p {
+    width: 100%;
+}
+}

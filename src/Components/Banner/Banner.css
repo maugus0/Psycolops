@@ -1,0 +1,103 @@
+.mindshare-section {
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.mindshare-text {
+    background-color: black;
+    padding: 80px 140px;
+    width: 100%;
+}
+
+.subtitle {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+}
+
+.subtitle .highlight {
+    color: #ff4f00;
+    /* Mindshare orange */
+    font-weight: bold;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 88%;
+}
+
+.mindshare-image img {
+    width: 100%;
+    display: block;
+}
+
+.subtitle:before {
+    content: "";
+    display: block;
+    height: 29px;
+    width: 3px;
+    background-color: #FF4C00;
+    position: absolute;
+    left: -15px;
+    top: 0px;
+}
+
+.subtitle {
+    position: relative;
+}
+
+.subtitle span {
+    color: #BEB8EB;
+    font-weight: 700;
+}
+
+
+/* Responsive Styles */
+@media only screen and (min-width: 1025px) and (max-width: 1290px) {
+    .padding-more {
+        padding: 0px;
+    }
+    section.Introsection {
+        width: 100%;
+        padding: 40px 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .subtitle::before {
+        top: -5px;
+    }
+    .padding-more {
+        padding: 0px;
+    }
+    .project-showcase {
+        background-color: #111111;
+        width: 100%;
+        padding: 40px 20px;
+    }
+    section.Introsection {
+        width: 100%;
+        padding: 40px 20px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .mindshare-text {
+        padding: 20px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+}

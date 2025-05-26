@@ -1,0 +1,73 @@
+.hand-container {
+    width: 100%;
+    padding: 80px 140px;
+    background-image: url('../../Assets/Images/hand-image.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+button.download-button {
+    background: #F15A24;
+    color: #fff;
+    border: none;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.margin-bottom-10rem {
+    margin-bottom: 10rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .hand-container {
+        padding: 40px 20px;
+        background-image: none;
+    }
+
+    .grey-img {
+        width: 100%;
+    }
+
+    .margin-bottom-10rem {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .font-52 {
+        font-size: 32px;
+    }
+
+   button.download-button {
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 1280px) and (max-width:1390px) {}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+    .hand-container {
+        background-size: 35%;
+    }
+    img.grey-img {
+    width: 70%;
+}
+button.download-button {
+    padding: 25px;
+    font-size: 20px;
+    margin-top: 30px;
+    max-width: 250px;
+}
+}

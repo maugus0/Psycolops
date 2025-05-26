@@ -1,0 +1,27 @@
+.mobile-showcase {
+  background-color: #91C6CC; /* or whatever your bg color is */
+}
+
+.mobile-showcase h2 {
+  font-weight: 600;
+}
+
+.phone-frame {
+  /* optional styling to mimic a phone bezel */
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  max-width: 260px;
+}
+
+.mobile-showcase .description {
+  max-width: 850px;
+  color: #222;
+}
+.mobile-showcase h2{
+  font-size: 63px;
+  font-weight: 300;
+}
+.mobile-padding{
+padding: 0px 150px;
+}
+

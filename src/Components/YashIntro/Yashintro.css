@@ -1,0 +1,101 @@
+
+.yash-intro {
+    background-image:  url('../../Assets/Images/yash-intro.png');
+    background-position: 14% 5%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1720px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.yash-intro {
+    background-position: 17% 5%;
+    background-size: 55%;
+    padding: 50px 20px;
+    height: 100%;
+}
+img.banner-face {
+    width: 72% !important;
+    margin-top: 85px;
+}
+
+  .yash-intro h1 {
+    font-size: 24px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+img.banner-face {
+    width: 50% !important;
+    margin-top: 140px;
+}
+
+  .yash-intro h1 {
+    font-size: 34px;
+  }
+  
+  .yash-intro {
+    background-position: 17% 5%;
+    padding: 80px 20px;
+    background-size: 40%;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width:1390px) {
+
+  img.banner-face {
+    width: 27%;
+
+  }
+
+  .yash-intro {
+    background-position: 17% 5%;
+    padding: 80px 20px;
+    background-size: 22%;
+  }
+}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+  img.banner-face {
+    width: 25%;
+  }
+
+ .yash-intro {
+    background-position: 17% 5%;
+    padding: 40px;
+    background-size: 22%;
+}
+.font-52 {
+    font-size: 44px;
+}
+.project-showcase {
+    padding: 80px 140px;
+}
+.heading-project {
+    padding: 0px 0px 60px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+img.banner-face {
+    width: 47% !important;
+    margin-top: 0px;
+}
+
+.yash-intro {
+    background-size: 35%;
+}
+
+}

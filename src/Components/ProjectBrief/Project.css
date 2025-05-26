@@ -1,0 +1,91 @@
+/* Base styles */
+body {
+    background-color: black;
+    color: white;
+
+}
+
+/* Container spacing is now handled by Bootstrap’s container/my-5 etc. */
+.project-brief {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 60px 80px;
+}
+
+/* Left Column Section */
+.section {
+    margin-bottom: 30px;
+}
+
+.project-1 h5 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.project-1 p {
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+
+.section p {
+    margin: 2px 0;
+}
+
+/* Right Column Styling */
+.brief-right h4 {
+    font-family: 'Jersey 15', sans-serif;
+    color: #a992fc;
+    margin-bottom: 16px;
+}
+
+.brief-right p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+em {
+    font-weight: 600;
+}
+
+.project-2 h4 {
+    color: #BEB8EB !important;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.project-2 p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 768px) {
+    .project-brief {
+        padding: 40px 20px;
+    }
+    .project-1 h5 {
+        font-size: 20px;
+    }
+    .project-1 p {
+        font-size: 16px;
+    }
+    .project-2 h4 {
+        font-size: 30px;
+    }
+    .project-2 p {
+        font-size: 16px;
+    }
+    .my-5 {
+        margin: 0px !important;
+    }
+}
+

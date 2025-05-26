@@ -1,0 +1,144 @@
+.blank-slider-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  padding: 40px;
+  position: relative;
+}
+
+.blank-slider-container {
+  width: 80%;
+}
+.mb-60{
+    margin-bottom:60px
+}
+.mt-60{
+    margin-top:60px
+}
+
+.blank-card {
+  height: 600px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Custom arrow styles */
+.custom-arrow {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.left-arrow {
+  margin-right: 20px;
+}
+
+.right-arrow {
+  margin-left: 20px;
+}
+
+/* Spacing below slider */
+.blank-slider-container {
+  margin-bottom: 40px;
+}
+
+/* External pagination container */
+.custom-swiper-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Pagination dot styles */
+.custom-swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.blank-card {
+    height: 400px;
+}
+.custom-arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.gallery-img{
+    width: 50% !important;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.blank-slider-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    padding: 40px 0px 0px;
+    position: relative;
+}
+.custom-arrow {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .blank-slider .font-52 {
+    font-size: 42px !important;
+}
+img.gallery-img {
+    width: 70%;
+}
+.project-slider .subtitle:before {
+    top: 0px;
+}
+.blank-slider h3 {
+    padding: 20px;
+}
+.blank-card {
+    height: 400px;
+}
+.blank-card img {
+  height: 400px !important;
+}
+a.text-center.image-left {
+    text-align: left !important;
+    padding-left: 10px;
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width:1390px) {
+
+}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+  .blank-card {
+    height: 500px;
+}
+ .font-52 {
+    font-size: 38px;
+}
+.blank-slider .gallery-img {
+    width: 65%;
+    padding: 0px 10px 10px 10px;
+}
+.image-left{
+    text-align: left !important;
+}
+}

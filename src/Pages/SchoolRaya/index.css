@@ -1,0 +1,32 @@
+.padding-bottom-60{
+    padding-bottom: 70px;
+}
+ .fan-p strong {
+    font-weight: bold;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+      .school-raya-page img{
+        width: 100%;
+    }
+    .raya-collage {
+    padding: 0px 20px;
+}
+.padding-bottom-60{
+    padding-bottom: 40px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+
+@media only screen and (min-width: 1280px) and (max-width:1390px) {}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+
+    .school-raya-page img{
+        width: 100%;
+    }
+    .raya-collage {
+    padding: 40px 100px;
+}
+}

@@ -1,0 +1,130 @@
+footer h3 {
+    text-align: center;
+}
+
+.footer-link {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 80px 0px 120px;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none !important;
+}
+
+.footet-social a {
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer {
+    padding: 110px 120px;
+}
+
+
+/* Responsive Styles */
+@media only screen and (min-width: 1025px) and (max-width: 1290px) {
+    .footer-link .experimental-link {
+        padding: 30px 62px;
+    }
+}
+
+@media (max-width: 1024px) {
+   footer .font-74 {
+    font-size: 60px;
+}
+footer {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 40px 20px;
+    }
+
+    footer h3 {
+        font-size: 34px !important;
+        text-align: center;
+    }
+
+    .footer-link {
+        gap: 20px;
+        align-items: baseline;
+        padding: 20px 0px;
+        flex-direction: column;
+    }
+
+    .experimental-link {
+        background: none;
+    }
+
+    .experimental-link {
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    .footet-social a {
+        padding: 8px 8px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .footer-link a {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .footer-link {
+        align-items: center;
+    }
+
+    .footer-link {
+    align-items: center;
+    text-align: center;
+}
+
+    .footet-social {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+.footer-link .experimental-link {
+    padding: 0px;
+}
+
+footer .font-74 {
+    font-size: 58px;
+}
+.footer-link a {
+    font-size: 14px;
+}
+footer .font-36 {
+    font-size: 30px;
+}
+.footet-social a {
+    font-size: 16px;
+}
+footer .experimental-img {
+    width: 80% !important;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    footer  .experimental-link {
+    font-size: 13px;
+    padding: 20px 0px;
+}
+}
+

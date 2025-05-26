@@ -1,0 +1,111 @@
+ section.Introsection {
+   width: 100%;
+   padding: 140px;
+ }
+
+ .hero-heading {
+   font-size: 52px;
+   font-weight: 400;
+ }
+
+ .hero-buttons button {
+   border: none;
+   border-radius: 6px;
+   font-weight: 300;
+   padding: 5px 12px;
+   cursor: pointer;
+ }
+
+ .download-btn {
+   background: #333;
+   color: white;
+ }
+
+ .see-btn {
+   background: #ff5e00;
+   color: white;
+ }
+
+ .grey-button {
+   background-color: #272424;
+   color: #ffffff;
+   padding: 10px 10px !important;
+ }
+
+ .font-16 {
+   font-size: 16px;
+ }
+
+ .mobile-show button {
+   display: none;
+ }
+
+ .font-poppin {
+   font-family: 'poppins';
+   font-weight: 500;
+ }
+
+ @media (max-width: 767px) {
+   .hero-heading {
+     font-size: 1.25rem;
+     text-align: left;
+   }
+
+   .hero-buttons {
+     flex-direction: column;
+   }
+
+   .hero-img {
+     text-align: center;
+     margin-top: 30px;
+   }
+
+   section.Introsection {
+     padding: 40px 20px;
+   }
+
+   .Introsection .font-24 {
+     font-size: 14px;
+   }
+
+   .hero-buttons button {
+     line-height: 30px;
+   }
+
+   .font-16 {
+     font-size: 14px;
+   }
+
+   .desktop-show button {
+     display: none;
+   }
+
+ .mobile-show button {
+    display: block;
+    width: 100%;
+}
+   a{
+    text-decoration: none;
+   }
+ }
+
+ @media only screen and (min-width: 1291px) and (max-width:1550px) {
+   .hero-heading {
+     font-size: 42px;
+   }
+
+ }
+
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+   section.Introsection {
+     padding: 40px;
+   }
+
+  .hero-heading {
+    font-size: 28px;
+}
+
+   .hero-buttons button {
+     padding: 5px 32px;
+   }
+ }

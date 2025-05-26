@@ -1,0 +1,53 @@
+.row.up-border {
+    border-top: 2px solid #656565;
+    padding: 50px 0px 90px;
+}
+img.Titlefolio1 {
+    width: 32%;
+}
+.titlefolio-page span {
+    font-weight: 200;
+}
+.titlefolio-collage {
+    padding: 0px 150px;
+}
+.amla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img.padding-cust {
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+img.padding-cust {
+    width: 100%;
+}
+ .titlefolio-collage {
+    padding: 0px 20px;
+}
+.titlefolio-page  .font-24 {
+    font-size: 16px;
+}
+.row.up-border {
+    padding: 30px 0px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width:1390px) {
+
+}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+    .titlefolio14{
+        width: 100%;
+    }
+
+}

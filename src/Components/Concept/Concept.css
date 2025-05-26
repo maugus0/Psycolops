@@ -1,0 +1,152 @@
+section.Concept {
+    padding: 60px 80px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #111111;
+}
+
+.concept-1 {
+    background-color: white;
+    text-align: center;
+    padding: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.concept-2 p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.concept-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-6.concept-2 {
+    padding-left: 25px;
+}
+
+.concept-line:after {
+    background-color: #656565;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 6%;
+    margin-left: 1rem;
+    position: absolute;
+    top: 50%;
+    width: 93%;
+}
+
+.concept-line {
+    position: relative;
+}
+
+.concept-1 img {
+    width: 100%;
+}
+
+/* Large screens (1290px to 1524px) */
+@media only screen and (min-width: 1270px) and (max-width: 1524px) {
+    .concept-line:after {
+        left: 6% !important;
+        width: 92%;
+    }
+}
+
+/* Medium-large screens (1025px to 1289px) */
+@media only screen and (min-width: 1025px) and (max-width: 1269px) {
+    .concept-line:after {
+        left: 6% !important;
+        width: 90% !important;
+    }
+
+    .concept-2 p {
+        font-size: 18px;
+    }
+
+    .padding-top-60 {
+        padding-top: 30px;
+    }
+}
+
+/* Tablets (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .concept-1 {
+        width: 100%;
+    }
+
+    .concept-line:after {
+        left: 14% !important;
+        width: 85% !important;
+    }
+
+    .concept-2 {
+        width: 100%;
+    }
+}
+
+/* Mobile (below 768px) */
+@media (max-width: 767px) {
+    .padding-top-60 {
+        padding-top: 0px;
+    }
+
+    .col-md-6.concept-2 {
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .concept-2 p {
+        font-size: 14px !important;
+    }
+
+    .font-24 {
+        font-size: 18px;
+    }
+
+    section.Concept {
+        padding: 40px 35px;
+    }
+
+    .concept-1 {
+        padding: 60px;
+    }
+
+    .concept-line:after {
+        display: none;
+    }
+
+    .Collage {
+        padding: 40px 20px;
+    }
+
+    .subtitle:before {
+        height: 20px !important;
+        top: 1px !important;
+    }
+}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+    .concept-line:after {
+        left: 6%;
+        width: 95%;
+    }
+
+    .concept-2 p {
+        font-size: 16px;
+    }
+
+    .concept-line .font-24 {
+        font-size: 20px;
+    }
+
+    p.font-24.concept-line.aos-init.aos-animate {
+        font-size: 20px;
+    }
+}

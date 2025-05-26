@@ -1,0 +1,89 @@
+h1.title {
+    width: 65%;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+h1.title {
+    width: 100%;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .banner-text.mindshare-text.aos-init.aos-animate {
+    padding: 40px;
+}
+h1.title {
+    width: 100%;
+}
+.title {
+    font-size: 34px;
+}
+.subtitle {
+    font-size: 20px;
+}
+section.Concept {
+    padding: 40px;
+}
+.concept-2 p {
+    font-size: 16px;
+}
+.col-md-6.concept-2 {
+    padding-left: 0px;
+    padding-top: 30px;
+}
+.padding-top-60 {
+    padding-top: 0px;
+}
+.collage-2 {
+    padding-bottom: 0px;
+}
+.gap-20 {
+    gap: 0px;
+}
+h3.slider-heading {
+    font-size: 18px;
+}
+.project-slider .color-grey {
+    font-size: 14px !important;
+}
+.project-slider  .grey-text {
+    font-size: 16px;
+}
+}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+.project-2 p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.project-1 p {
+    font-size: 18px;
+       font-weight: 400;
+}
+.project-1 h5 {
+    font-size: 18px;
+       font-weight: 400;
+}
+.project-brief {
+    padding: 20px 120px;
+}
+.project-2 h4 {
+    font-size: 42px;
+}
+h1.title {
+    width: 54%;
+}
+h1.title {
+    width: 54%;
+}
+.title {
+    font-size: 38px;
+}
+.subtitle {
+    font-size: 20px;
+}
+
+
+}

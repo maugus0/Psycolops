@@ -1,0 +1,185 @@
+.custom-icon {
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateX(50%) translateY(-50%);
+    z-index: 10;
+}
+
+.position-slider {
+    position: relative !important;
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 80px 10px;
+    background-color: #111111;
+
+}
+
+h3.slider-heading {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter';
+}
+
+.grey-text {
+    font-size: 20px;
+    color: #B9B9B9;
+}
+
+.position-slider h4 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.position-slider p.color-grey {
+    font-size: 16px;
+}
+
+.project-slider button {
+    border: none;
+}
+
+.custom-size{
+    height: 500px !important;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Responsive Styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .project-slider .p-4 {
+        padding: 0px !important;
+    }
+    .custom-icon {
+    right: 22px;
+}
+.position-slider {
+    overflow: hidden;
+    padding: 40px 40px 10px;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .rounded-lg img {
+        width: 100%;
+    }
+
+    .custom-padding {
+        padding:20px  0px !important;
+    }
+
+    .custom-icon {
+        position: absolute;
+        bottom: 0% !important;
+        right: 50%;
+        transform: translateX(50%) translateY(-50%);
+        z-index: 10;
+        top: auto;
+    }
+
+    .position-slider h4 {
+        font-size: 34px;
+        font-weight: 400;
+    }
+
+    .subtitle:before {
+        top: -10px;
+    }
+
+    .all-slider {
+        padding: 20px;
+    }
+.project-slider .subtitle:before {
+    top: -3px;
+    height: 20px;
+}
+
+    .project-slider .color-grey {
+        font-size: 12px !important;
+    }
+
+    .project-slider .position-relative h5.subtitle {
+        font-size: 14px;
+    }
+
+   .project-slider  .width-custom {
+        display: flex !important;
+        align-items: center;
+    }
+       .project-slider  span.grey-text {
+    font-size: 12px;
+}
+h3.slider-heading {
+    font-size: 16px;
+}
+.custom-size {
+    height: 350px !important;
+}
+}
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+.project-slider h3.slider-heading {
+    font-size: 18px;
+}
+.project-slider h3.slider-heading  .grey-text {
+    font-size: 14px;
+}
+.position-slider p.color-grey {
+    font-size: 14px; 
+}
+.subtitle:before {
+     height: 22px !important;
+    width: 2px !important;
+    top: 5px !important;
+}
+.custom-size {
+    height: 390px !important;
+    width: 385px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.position-slider h4 {
+    font-size: 40px;
+}
+}
+
+
+.custom-arrow-button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  z-index: 10;
+}
+
+.custom-icon {
+  width: 40px;
+  height: auto;
+}
+.swiper-pagination-bullet {
+  background-color: white;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet {
+  background-color: white;
+  opacity: 0.5;
+  width: 8px;
+  height: 8px;
+  margin: 0 14px;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: white;
+  transform: none  !important; /* Prevent scaling */
+}

@@ -1,0 +1,349 @@
+.shoe-1 {
+    width: 45%;
+}
+
+.shoe-2 {
+    width: 45%;
+}
+
+.trekkit-section {
+    background-color: #C2D0B5;
+    padding: 80px 140px;
+}
+
+.shoe-3 {
+    width: 60%;
+}
+
+.trek-mobile {
+    padding: 60px 0px;
+    width: 100%;
+}
+
+.trekkit-page .concept-1 {
+    background-color: #000000;
+    text-align: center;
+    padding: 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trekkit-page .concept-2 p {
+    width: 100%;
+    font-size: 24px;
+}
+
+.shoe-class-1 {
+    position: relative;
+}
+
+.shoe-class-2 {
+    position: relative;
+}
+
+.shoe-para {
+    position: absolute;
+    right: 113px;
+    top: 25%;
+    text-align: left;
+}
+
+.shoe-para-2 {
+    position: absolute;
+    left: 12%;
+    bottom: 25%;
+    text-align: left;
+}
+
+.shoe-class {
+    padding: 100px 80px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .trekkit-page .Concept .font-48 {
+    font-size: 26px;
+}
+    .journey-features {
+        padding: 40px 20px;
+    }
+
+    .feature-content {
+        padding: 20px !important;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .trekkit-page .concept-2 p {
+        width: 100%;
+        padding: 0;
+    }
+
+    .trekkit-page {
+        overflow: hidden;
+    }
+
+    .Concept .font-48 {
+        font-size: 28px;
+    }
+
+    .feature-item .font-24 {
+        text-align: left;
+    }
+
+    p.concept-line.font-24.mb-4.pb-4 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .feature-item p.mb-4.pb-4.mt-4.pt-4.font-24 {
+        padding: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .width-40 {
+        width: 80%;
+    }
+
+    .mobile-slider-2 {
+        padding-top: 100px;
+    }
+
+    .absolute-1 {
+        font-size: 14px;
+    }
+
+    .absolute-2 {
+        top: 44%;
+        right: 10%;
+        font-size: 14px;
+    }
+
+    .absolute-3 {
+        right: 10%;
+        bottom: 0%;
+        font-size: 16px;
+    }
+
+    .circle-before::before {
+        width: 45px;
+        height: 45px;
+    }
+
+    .mobile-slider {
+        background-image: none;
+        overflow: hidden;
+        padding-bottom: 80px;
+    }
+
+    .mobile-slider-2 .w-100 {
+        width: 28em !important;
+        padding-left: 10px;
+    }
+
+    .mobile-showcase h2 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .mobile-padding {
+        padding: 0px 10px;
+    }
+
+    .phone-frame {
+        width: 100% !important;
+    }
+
+.mobile-showcase .description {
+    font-size: 14px;
+    width: 100% !important;
+}
+.mobile-block .font-24 {
+    font-size: 18px;
+}
+    .mobile-block .font-24 {
+        font-size: 20px;
+    }
+
+    .mobile-showcase {
+        padding: 40px 10px !important;
+    }
+
+    .shoe-class {
+        padding: 40px 10px;
+    }
+
+    .shoe-2 {
+        width: 90%;
+        padding: 40px 0px 80px;
+    }
+
+    .shoe-1 {
+        width: 90%;
+        padding: 80px 0px 60px;
+    }
+
+    .shoe-para {
+        left: 10% !important;
+        top: 0% !important;
+    }
+
+    .shoe-para-2 {
+        position: absolute;
+        left: 36%;
+        bottom: 0%;
+        text-align: left;
+    }
+
+    .trekkit-section {
+        padding: 40px 20px;
+    }
+
+    .trekkit-section .font-24 {
+        font-size: 16px;
+    }
+
+    .shoe-3 {
+        width: 100%;
+    }
+
+    .trek-mobile {
+        padding: 60px 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .journey-features {
+    padding: 60px 40px;
+}
+.journey-features .font-24 {
+    font-size: 20px;
+}
+.trekkit-page .concept-2 p {
+    font-size: 16px;
+}
+.trekkit-page  .font-48 {
+    font-size: 30px;
+}
+.journey-features .col-md-3 {
+    width: 50%;
+}
+.journey-features .font-20 {
+    font-size: 16px;
+}
+p.font-24.color-black{
+    font-size: 16px;
+}
+.trekkit-section {
+    background-color: #C2D0B5;
+    padding: 40px 20px;
+}
+.shoe-2 {
+    width: 90%;
+}
+.shoe-1 {
+    width: 90%;
+}
+.shoe-class {
+    padding: 40px;
+}
+.shoe-para {
+    position: static;
+}
+.shoe-para-2 {
+    position: static;
+    text-align: justify;
+    padding-left: 100px;
+}
+.mobile-showcase .description {
+    font-size: 16px;
+}
+.mobile-showcase h2 {
+    font-size: 32px;
+}
+.mobile-padding {
+    padding: 0px 30px;
+}
+.mobile-showcase .font-24 {
+    font-size: 16px;
+}
+.mobile-slider .font-20 {
+    font-size: 14px;
+}
+.absolute-3 {
+    right: 14%;
+    bottom: -2%;
+}
+.absolute-1 {
+    left: 29%;
+}
+.font-32 {
+    font-size: 26px;
+}
+.margin-left-30 {
+    margin-left: 40px;
+}
+.mobile-slider {
+    background-position: 43% 16%;
+    background-size: 20%;
+}
+.trekkit-page {
+    overflow: hidden;
+}
+.feature-content {
+    padding: 20px  4px!important;
+}
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width:1390px) {}
+
+@media only screen and (min-width: 1291px) and (max-width:1550px) {
+.mobile-showcase {
+    padding: 50px 80px !important;
+}
+.mobile-slider {
+    background-position: 43% 27% !important;
+    background-size: 18% !important;
+    padding: 0px 50px 120px !important;
+}
+
+.trekkit-page .concept-2 p {
+    font-size: 18px;
+}
+
+.font-24 {
+    font-size: 20px;
+}
+.mobile-slider .font-20 {
+    font-size: 16px;
+}
+.mobile-showcase h2 {
+    font-size: 48px;
+}
+.shoe-1 {
+    width: 65%;
+}
+.shoe-para {
+    right: 12px;
+    TOP: 20%;
+}
+.shoe-2 {
+    width: 65%;
+    margin-top: 170px;
+}
+.shoe-para-2 {
+    left: 2%;
+    bottom: 20%;
+}
+.trek-mobile {
+    padding: 60px 100px;
+    width: 100%;
+}
+.absolute-1 {
+    left: 35%;
+    margin-top: 30px;
+    text-align: left;
+}
+}

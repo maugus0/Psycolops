@@ -1,0 +1,134 @@
+.Collage {
+    padding: 60px 80px 0px;
+}
+
+.Collage5 {
+    background: #246D68;
+    height: 100%;
+    padding: 100px 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 555px;
+}
+
+.Collage6 {
+    background: #B82926;
+    height: 100%;
+    padding: 100px 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 555px;
+}
+
+.Collage7 {
+    background: #3B419A;
+    height: 100%;
+    padding: 100px 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 555px;
+}
+
+.Collage5 img {
+    width: 100%;
+}
+
+.Collage6 img {
+    width: 100%;
+}
+
+.Collage7 img {
+    width: 100%;
+}
+
+
+/* Responsive Styles */
+@media only screen and (min-width: 1025px) and (max-width: 1290px) {
+    .Collage5 {
+        height: 400px;
+    }
+
+    .Collage6 {
+        height: 400px;
+    }
+
+    .Collage7 {
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .id-image {
+        margin-top: 0px !important;
+        border-radius: 10px !important;
+    }
+
+    .Collage5 {
+        height: 300px !important;
+        margin-bottom: 0px !important;
+        border-radius: 10px !important;
+    }
+
+    .Collage6 {
+        height: 300px !important;
+        margin-bottom: 0px !important;
+        border-radius: 10px !important;
+    }
+
+    .Collage7 {
+        padding: 40px 50px !important;
+        height: 300px !important;
+        border-radius: 10px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .Collage {
+        padding: 40px 20px;
+    }
+
+    .Collage5 {
+        padding: 40px 50px;
+        height: 350px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    .Collage6 {
+        padding: 40px 50px;
+        height: 350px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    .Collage7 {
+        padding: 40px 50px;
+        height: 350px;
+        border-radius: 5px;
+    }
+
+    .id-image {
+        height: 450px;
+        object-fit: cover;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    .Collage img {
+        border-radius: 10px;
+    }
+
+.collage-2 {
+    padding-bottom: 20px;
+}
+.gap-20{
+    gap: 20px;
+}
+}
