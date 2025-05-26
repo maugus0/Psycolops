@@ -9,6 +9,10 @@
       name="description"
       content="Portfolio Website of Kumar Yashoda."
     />
+    <meta property="og:title" content="Psycolops | Design">
+    <meta property="og:description" content="Portfolio Website of Kumar Yashoda / NID Graduate / Desginer and Art Director Aspirant.">
+    <meta property="og:url" content="https://psycolops.in">
+    <meta property="og:type" content="website">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo920.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -31,6 +35,15 @@
     <script>
     if (window.location.hostname === 'www.psycolops.in') {
       window.location.href = window.location.href.replace('www.', '');
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Psycolops",
+      "url": "https://psycolops.in",
+      "description": "Portfolio Website of Kumar Yashoda / NID Graduate / Desginer and Art Director Aspirant."
     }
     </script>
     <div id="root"></div>
