@@ -69,7 +69,53 @@ button.filter-btn.active {
 .gallery-item:hover img {
   transform: scale(1.02);
 }
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
 
+.modal-content {
+  position: relative;
+  width: fit-content;
+  height: 600px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content img,
+.modal-content video {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  background: none;
+  color: #130909;
+  font-size: 28px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
 
 /* Responsive Layout */
 @media (max-width: 900px) {

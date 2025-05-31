@@ -49,11 +49,23 @@ const allItems = [
 
 const WorkGallery = () => {
   const [activeCategory, setActiveCategory] = useState('All');
+  const [selectedItem, setSelectedItem] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const filteredItems =
     activeCategory === 'All'
       ? allItems
       : allItems.filter(item => item.category === activeCategory);
+
+  const openModal = (item) => {
+    setSelectedItem(item);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedItem(null);
+  };
 
   return (
     <>
@@ -77,7 +89,12 @@ const WorkGallery = () => {
 
         <div className="gallery-grid">
           {filteredItems.map(item => (
-            <div key={item.id} className="gallery-item">
+            <div
+              key={item.id}
+              className="gallery-item"
+              onClick={() => openModal(item)}
+              style={{ cursor: 'pointer' }}
+            >
               {item.img ? (
                 <img src={item.img} alt={item.category} />
               ) : item.video ? (
@@ -95,6 +112,25 @@ const WorkGallery = () => {
             </div>
           ))}
         </div>
+
+        {/* Modal */}
+        {isModalOpen && selectedItem && (
+          <div className="modal-overlay" onClick={closeModal}>
+            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+              <button className="modal-close" onClick={closeModal}>×</button>
+              {selectedItem.img ? (
+                <img src={selectedItem.img} alt="Preview" style={{ maxWidth: '100%', borderRadius: '8px' }} />
+              ) : selectedItem.video ? (
+                <video
+                  src={selectedItem.video}
+                  controls
+                  autoPlay
+                  style={{ maxWidth: '100%', borderRadius: '8px' }}
+                />
+              ) : null}
+            </div>
+          </div>
+        )}
       </section>
       <Footer />
     </>
