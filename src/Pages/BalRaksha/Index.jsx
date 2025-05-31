@@ -12,6 +12,10 @@ import Fan1 from '../../Assets/Images/fan-1.png';
 import Fan2 from '../../Assets/Images/fan-2.png';
 import Fan3 from '../../Assets/Images/fan-3.png';
 import Fan4 from '../../Assets/Images/fan-4.png';
+import Video1 from '../../Assets/Video/bal-video-3.mp4';
+import Video2 from '../../Assets/Video/bal-video-2.mp4';
+import Video3 from '../../Assets/Video/bal-video-1.mp4';
+
 import './Index.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -21,7 +25,6 @@ import BalRakshaImg3 from '../../Assets/Images/bal-raksha-3.png';
 import BalRakshaImg4 from '../../Assets/Images/bal-raksha-4.png';
 import BalRakshaImg5 from '../../Assets/Images/bal-raksha-5.png';
 import BalRakshaImg6 from '../../Assets/Images/bal-raksha-6.png';
-import BalRakshaImg7 from '../../Assets/Images/BalRakshaImg7.png';
 import BalRakshaImg8 from '../../Assets/Images/BalRakshaImg8.png';
 
 
@@ -38,7 +41,7 @@ const ProjectMindSet = () => {
       <div className="mb-4">
         <h5>Nature</h5>
         <p className='role-up'>Pitched to Client</p>
-          <p><em>(Internship @Clay Design Strategy)</em></p>
+        <p><em>(Internship @Clay Design Strategy)</em></p>
       </div>
       <div className='role-p'>
         <h5>Roles:</h5>
@@ -137,7 +140,14 @@ const ProjectMindSet = () => {
               <img src={BalRakshaImg1} alt="" />
             </div>
             <div className="col-md-6 margin-bottom-80">
-              <img src={BalRakshaImg2} alt="" />
+              <video
+                src={Video3}
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{ width: '100%', height: 'auto' }}
+              />
             </div>
             <div className="col-md-6 margin-bottom-80">
               <img src={BalRakshaImg3} alt="" />
@@ -159,7 +169,14 @@ const ProjectMindSet = () => {
           <p class="font-24 concept-line-1 aos-init aos-animate" data-aos="fade-up">Installations</p>
           <div className="row">
             <div className="col-md-8">
-              <img src={BalRakshaImg7} alt="" className='fan-pic' />
+              <video
+                src={Video1}
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
             <div className="col-md-4">
               <div className=' fan-p font-20 weight-300  small-font bal-raksha-content'>
@@ -169,7 +186,14 @@ const ProjectMindSet = () => {
               </div>
             </div>
             <div className="col-md-12">
-              <img src={BalRakshaImg8} alt="" className='BalRakshaImg8' />
+              <video
+                src={Video2}
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{ width: '100%', height: 'auto' }}
+              />
             </div>
           </div>
         </div>

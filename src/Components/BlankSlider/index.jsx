@@ -5,11 +5,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import './index.css';
 
-import Collage2 from '../../Assets/Images/gallery-images/gallery-2.png';
-import Collage3 from '../../Assets/Images/gallery-images/gallery-3.png';
-import Collage4 from '../../Assets/Images/gallery-images/gallery-4.png';
-import Collage7 from '../../Assets/Images/gallery-images/gallery-7.png';
-import Collage9 from '../../Assets/Images/gallery-images/gallery-9.png';
+// Video imports
+import Video3 from '../../Assets/Video/video-3.mp4';
+import Video4 from '../../Assets/Video/video-4.mp4';
+import Video6 from '../../Assets/Video/video-6.mp4';
+import Video7 from '../../Assets/Video/video-7.mp4';
+import Video8 from '../../Assets/Video/video-8.mp4';
+
+// Image assets
 import GalleryImage from '../../Assets/Images/gallery-img.png';
 import LeftArrowImage from '../../Assets/Images/LeftArrowImage.png';
 import RightArrowImage from '../../Assets/Images/RightArrowImage.png';
@@ -20,7 +23,7 @@ const BlankSlider = () => {
   const [swiperReady, setSwiperReady] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
-  const images = [Collage2, Collage3, Collage4, Collage7, Collage9];
+  const videos = [Video3, Video4, Video6, Video7, Video8];
 
   useEffect(() => {
     setSwiperReady(true);
@@ -79,12 +82,15 @@ const BlankSlider = () => {
                   1024: { slidesPerView: 3 },
                 }}
               >
-                {images.map((imageSrc, index) => (
+                {videos.map((videoSrc, index) => (
                   <SwiperSlide key={index}>
-                    <div className={`blank-card ${index === 0 ? 'left-shadow' : index === images.length - 1 ? 'right-shadow' : ''}`}>
-                      <img
-                        src={imageSrc}
-                        alt={`Slide ${index + 1}`}
+                    <div className={`blank-card ${index === 0 ? 'left-shadow' : index === videos.length - 1 ? 'right-shadow' : ''}`}>
+                      <video
+                        src={videoSrc}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
                         style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
                       />
                     </div>
@@ -107,7 +113,9 @@ const BlankSlider = () => {
 
         <div className='d-flex justify-content-center align-items-center mb-60 flex-direction'>
           <h4 className='font-52'>See my work in the</h4>
-          <a href="#gallery-page" className='text-center image-left'> <img src={GalleryImage} alt="" className='gallery-img' /></a>
+          <a href="#gallery-page" className='text-center image-left'>
+            <img src={GalleryImage} alt="Gallery" className='gallery-img' />
+          </a>
         </div>
       </div>
     </div>

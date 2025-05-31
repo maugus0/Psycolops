@@ -8,7 +8,7 @@ const Banner = ({
   subtitle,
   title,
   imageSrc,
-  imageAlt = 'Banner image',
+  imageAlt = '',
   textAnimation = 'fade-up',
   imageAnimation = 'fade-up',
   reverse = false, // optional: reverse layout

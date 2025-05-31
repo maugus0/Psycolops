@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Header from '../../Components/Header/Header';
 import Banner from '../../Components/Banner/Banner';
 import ProjectBrief from '../../Components/ProjectBrief/Project';
-import Image from '../../Components/Image/Image';
+import TrekkitVideo from '../../Assets/Video/terkkit-video.mp4';
 import Concept from '../../Components/Concept/Concept';
 import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
 import Footer from '../../Components/Footer/Footer';
@@ -88,13 +88,13 @@ const ProjectMindSet = () => {
         imageAnimation="fade-up"
       />
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
-
-      <Image
-        src={TrekitImg1}
-        alt="Trekkit showcase image 1"
-        animation="fade-up"
-        className="custom-style"
-        duration={1500}
+      <video
+        src={TrekkitVideo}
+        autoPlay
+        loop
+        muted
+        playsInline
+        style={{ width: '100%', height: 'auto'}}
       />
 
       <Concept

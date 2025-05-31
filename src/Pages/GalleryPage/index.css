@@ -87,7 +87,7 @@ button.filter-btn.active {
   position: relative;
   width: fit-content;
   height: 600px;
-  background: #fff;
+  background: #000000;
   padding: 20px;
   border-radius: 10px;
   overflow: hidden;
@@ -110,8 +110,8 @@ button.filter-btn.active {
   top: 0px;
   right: 5px;
   background: none;
-  color: #130909;
-  font-size: 28px;
+  color: #ffffff;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   z-index: 1;
@@ -148,6 +148,9 @@ button.filter-btn {
 }
 .gallery-heading br {
     display: none;
+}
+.modal-content {
+  height: 350px;
 }
 
 }

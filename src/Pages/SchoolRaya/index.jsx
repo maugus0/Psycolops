@@ -6,6 +6,7 @@ import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
 import Footer from '../../Components/Footer/Footer';
 import RayaBanner from '../../Assets/Images/Raya-banner.png';
 import Image from '../../Components/Image/Image';
+import RayaVideo from '../../Assets/Video/video-school.mp4'
 import Raya1 from '../../Assets/Images/Raya-img-1.png';
 import Raya2 from '../../Assets/Images/Raya-img-2.png';
 import Raya3 from '../../Assets/Images/Raya-img-3.png';
@@ -67,7 +68,7 @@ const ProjectRaya = () => {
     <div className="school-raya-page">
       <Header />
       <Banner
-       subtitle={
+        subtitle={
           <>
             <span style={{ color: '#BEB8EB' }}>THE SCHOOL OF RAYA</span> | LOGO AND BRANDING
           </>
@@ -116,27 +117,34 @@ const ProjectRaya = () => {
               <img src={Raya4} alt="" />
             </div>
             <div className="col-md-6 padding-bottom-60">
-                <img src={Raya5} alt="" />
+              <video
+                src={RayaVideo}
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+              />
             </div>
-             <div className="col-md-12 padding-bottom-60">
+            <div className="col-md-12 padding-bottom-60">
               <img src={Raya6} alt="" />
             </div>
-              <div className="col-md-8 padding-bottom-60">
+            <div className="col-md-8 padding-bottom-60">
               <img src={Raya7} alt="" />
             </div>
             <div className="col-md-4 padding-bottom-60">
-                <img src={Raya8} alt="" />
+              <img src={Raya8} alt="" />
             </div>
-             <div className="col-md-6 padding-bottom-60">
+            <div className="col-md-6 padding-bottom-60">
               <img src={Raya9} alt="" />
             </div>
             <div className="col-md-6 padding-bottom-60">
-                <img src={Raya10} alt="" />
+              <img src={Raya10} alt="" />
             </div>
-              <div className="col-md-12 padding-bottom-60">
+            <div className="col-md-12 padding-bottom-60">
               <img src={Raya11} alt="" />
             </div>
-              <div className="col-md-8 padding-bottom-60">
+            <div className="col-md-8 padding-bottom-60">
               <img src={Raya12} alt="" />
             </div>
           </div>

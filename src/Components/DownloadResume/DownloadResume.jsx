@@ -14,7 +14,7 @@ const ResumeSection = () => {
           </div>
           <div className="col-md-6 color-white d-flex flex-column justify-content-end">
             <h4 className="font-52 margin-bottom-10rem">Hello!</h4>
-            <h5 className="font-52">I am Yash. I am a visual<br /> designer based in New, Delhi.</h5>
+            <h5 className="font-52">I am Yash. I am a visual<br /> designer based in New Delhi.</h5>
             <a href={YashResume} download>
               <button className="download-button">Download Resume</button>
             </a>

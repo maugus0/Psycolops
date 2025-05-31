@@ -24,6 +24,8 @@ import Video13 from '../../Assets/Video/video-13.mp4';
 import Video14 from '../../Assets/Video/video-14.mkv';
 import Video15 from '../../Assets/Video/video-15.mp4';
 import Video16 from '../../Assets/Video/video-16.mp4';
+import Video17 from '../../Assets/Video/video-17.mp4';
+import Video18 from '../../Assets/Video/video-18.mp4';
 
 const categories = ['All', 'Branding', 'Motion', 'Sketchbooks'];
 
@@ -45,6 +47,8 @@ const allItems = [
   { id: 26, category: 'Motion', video: Video14 },
   { id: 27, category: 'Motion', video: Video15 },
   { id: 28, category: 'Motion', video: Video16 },
+  { id: 29, category: 'Motion', video: Video17 },
+  { id: 30, category: 'Motion', video: Video18 },
 ];
 
 const WorkGallery = () => {

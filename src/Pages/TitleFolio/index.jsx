@@ -4,7 +4,7 @@ import Banner from '../../Components/Banner/Banner';
 import ProjectBrief from '../../Components/ProjectBrief/Project';
 import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
 import Footer from '../../Components/Footer/Footer';
-import BalrakshaGrey from '../../Assets/Images/Balraksha-grey-banner.png';
+import TitleVideo from '../../Assets/Video/title-folio-video.mp4';
 import Titlefolio1 from '../../Assets/Images/title-folio-1.png';
 import Titlefolio2 from '../../Assets/Images/title-folio-2.png';
 import Titlefolio3 from '../../Assets/Images/title-folio-3.png';
@@ -20,6 +20,10 @@ import Titlefolio12 from '../../Assets/Images/title-folio-12.png';
 import Titlefolio13 from '../../Assets/Images/title-folio-13.png';
 import Titlefolio14 from '../../Assets/Images/title-folio-14.png';
 import Titlefolio15 from '../../Assets/Images/title-folio-15.png';
+import BibiVideo from '../../Assets/Video/bibi-video.mp4';
+import AtithiVideo from '../../Assets/Video/atithi-video.mp4'
+import HandDesign from '../../Assets/Video/video-18.mp4'
+import RamaVideo from '../../Assets/Video/video-17.mp4'
 import './index.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -61,79 +65,117 @@ const ProjectMindSet = () => {
         <div className="titlefolio-page">
             <Header />
             <Banner
-                subtitle="TitleFOlio | Title Design and TYPOGRAPHY"
+                subtitle={
+                    <>
+                        <span style={{ color: '#BEB8EB' }}>TitleFolio  </span> | Title Design and TYPOGRAPHY
+                    </>
+                }
+
                 title={`Making the process of planning treks more intuitive.`}
-                imageSrc={BalrakshaGrey}
-                imageAlt="Trekkit visual"
-                textAnimation="fade-up"
-                imageAnimation="fade-down"
+                imageSrc={null}
+            />
+            <video
+                src={TitleVideo}
+                autoPlay
+                loop
+                muted
+                playsInline
+                style={{ width: '100%', height: 'auto' }}
             />
             <ProjectBrief left={leftContent} right={rightContent} delay={200} />
             <div className="titlefolio-collage">
                 <div className="custom-container">
                     <div className="row up-border">
-                         <p className='font-24'>Of Men & Puppets <span>(Graphic Novel by Rohit Issac Thomas)</span></p>
+                        <p className='font-24'>Of Men & Puppets <span>(Graphic Novel by Rohit Issac Thomas)</span></p>
                         <div className="col-md-12 text-center">
                             <img src={Titlefolio1} alt="" className='Titlefolio1' />
                         </div>
                     </div>
                     <div className="row up-border ">
-                          <p className='font-24 text-end'>Amala (<span>Short Film by</span> Maithili Ajay Phatak)</p>
+                        <p className='font-24 text-end'>Amala (<span>Short Film by</span> Maithili Ajay Phatak)</p>
                         <div className="col-md-6">
-                            <img src={Titlefolio2} alt="" className='w-100'/>
+                            <img src={Titlefolio2} alt="" className='w-100' />
                         </div>
                         <div className="col-md-6 amla">
-                            <img src={Titlefolio3} alt="" className='w-100'/>
+                            <img src={Titlefolio3} alt="" className='w-100' />
                         </div>
                     </div>
                     <div className="row up-border">
-                          <p className='font-24'>Babi (<span>Documentary by</span> Maithili Ajay Phatak)</p>
+                        <p className='font-24'>Babi (<span>Documentary by</span> Maithili Ajay Phatak)</p>
                         <div className="col-md-7">
                             <img src={Titlefolio4} alt="" className='w-100' />
-                            <img src={Titlefolio5} alt="" className='w-100'  />
+                             <video
+                                src={BibiVideo}
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                style={{ width: '100%', height: 'auto' }}
+                            />
                         </div>
                         <div className="col-md-5">
-                            <img src={Titlefolio6} alt="" className='w-100'  />
+                            <img src={Titlefolio6} alt="" className='w-100' />
                         </div>
                     </div>
                     <div className="row up-border">
-                           <p className='font-24 text-end'>Atithi Daivo Bhava (<span>Animated Short FIlm by</span> Pranav Holla)</p>
+                        <p className='font-24 text-end'>Atithi Daivo Bhava (<span>Animated Short FIlm by</span> Pranav Holla)</p>
                         <div className="col-md-5">
                             <img src={Titlefolio7} alt="" className='w-100' />
 
                         </div>
                         <div className="col-md-7 text-center">
-                            <img src={Titlefolio8} alt="" className='padding-cust'/>
-                            <img src={Titlefolio9} alt="" className='w-100' />
+                            <img src={Titlefolio8} alt="" className='padding-cust' />
+                           <video
+                                src={AtithiVideo}
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                style={{ width: '100%', height: 'auto' }}
+                            />
                         </div>
 
                     </div>
                     <div className="row up-border">
-                          <p className='font-24'>Babi (<span>Documentary by </span>Maithili Ajay Phatak)</p>
+                        <p className='font-24'>Babi (<span>Documentary by </span>Maithili Ajay Phatak)</p>
                         <div className="col-md-12 text-center">
-                            <img src={Titlefolio10} alt=""/>
+                            <img src={Titlefolio10} alt="" className='tilefoio-10' />
                         </div>
                     </div>
                     <div className="row up-border">
-                          <p className='font-24 text-end'>Atithi Daivo Bhava (<span>Animated Short FIlm by</span> Pranav Holla)</p>
+                        <p className='font-24 text-end'>Atithi Daivo Bhava (<span>Animated Short FIlm by</span> Pranav Holla)</p>
                         <div className="col-md-12">
-                            <img src={Titlefolio11} alt="" className='w-100'/>
+                            <img src={Titlefolio11} alt="" className='w-100' />
                         </div>
                         <div className="col-md-6">
-                            <img src={Titlefolio12} alt="" className='w-100'/>
+                            <video
+                                src={RamaVideo}
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                style={{ width: '100%', height: 'auto' }}
+                            />
                         </div>
                         <div className="col-md-6">
-                            <img src={Titlefolio13} alt="" className='w-100'/>
+                            <img src={Titlefolio13} alt="" className='w-100' />
                         </div>
                     </div>
                     <div className="row up-border">
-                           <p className='font-24'>Babi (<span>Documentary by </span>  Maithili Ajay Phatak)</p>
+                        <p className='font-24'>Babi (<span>Documentary by </span>  Maithili Ajay Phatak)</p>
                         <div className="col-md-6">
-                            <img src={Titlefolio14} alt="" className='w-100'/>
+                                 <video
+                                src={HandDesign}
+                                autoPlay
+                                loop
+                                muted
+                                playsInline
+                                style={{ width: '100%', height: 'auto' }}
+                            />
                             <img src={Titlefolio14} alt="" className='w-100' />
                         </div>
                         <div className="col-md-6">
-                            <img src={Titlefolio15} alt="" className='w-100'/>
+                            <img src={Titlefolio15} alt="" className='w-100' />
                         </div>
                     </div>
                 </div>
