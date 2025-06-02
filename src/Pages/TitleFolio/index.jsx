@@ -37,7 +37,7 @@ const ProjectMindSet = () => {
     }, []);
 
     const leftContent = (
-        <div data-aos="fade-right">
+        <div data-aos="fade-up">
             <div className="mb-4">
                 <h5>Nature</h5>
                 <p>Freelance</p>
@@ -52,7 +52,7 @@ const ProjectMindSet = () => {
 
 
     const rightContent = (
-        <div data-aos="fade-lef">
+        <div data-aos="fade-up">
             <h4>Brief:</h4>
             <p>
                 This project is a curated collection of title designs developed for various contexts — from films and videos to personal experiments.

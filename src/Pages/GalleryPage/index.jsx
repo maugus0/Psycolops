@@ -1,5 +1,4 @@
-// src/components/WorkGallery.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './index.css';
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
@@ -27,7 +26,7 @@ import Video16 from '../../Assets/Video/video-16.mp4';
 import Video17 from '../../Assets/Video/video-17.mp4';
 import Video18 from '../../Assets/Video/video-18.mp4';
 
-const categories = ['All', 'Branding', 'Motion', 'Sketchbooks'];
+const categories = ['All', 'Branding', 'Motion', 'Sketchbooks', 'Typography'];
 
 const allItems = [
   { id: 1, category: 'Branding', img: Collage1 },
@@ -55,6 +54,19 @@ const WorkGallery = () => {
   const [activeCategory, setActiveCategory] = useState('All');
   const [selectedItem, setSelectedItem] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [showMore, setShowMore] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  const visibleCount = 3;
+  const visibleCategories = isMobile ? categories.slice(0, visibleCount) : categories;
+  const hiddenCategories = isMobile ? categories.slice(visibleCount) : [];
 
   const filteredItems =
     activeCategory === 'All'
@@ -80,7 +92,7 @@ const WorkGallery = () => {
         </h1>
 
         <div className="filter-nav">
-          {categories.map(cat => (
+          {visibleCategories.map(cat => (
             <button
               key={cat}
               className={`filter-btn ${activeCategory === cat ? 'active' : ''}`}
@@ -89,6 +101,24 @@ const WorkGallery = () => {
               {cat}
             </button>
           ))}
+
+          {isMobile && !showMore && hiddenCategories.length > 0 && (
+            <button className="filter-btn toggle-btn" onClick={() => setShowMore(true)}>+</button>
+          )}
+
+          {isMobile && showMore && hiddenCategories.map(cat => (
+            <button
+              key={cat}
+              className={`filter-btn ${activeCategory === cat ? 'active' : ''}`}
+              onClick={() => setActiveCategory(cat)}
+            >
+              {cat}
+            </button>
+          ))}
+
+          {isMobile && showMore && (
+            <button className="filter-btn toggle-btn" onClick={() => setShowMore(false)}>−</button>
+          )}
         </div>
 
         <div className="gallery-grid">
@@ -117,7 +147,6 @@ const WorkGallery = () => {
           ))}
         </div>
 
-        {/* Modal */}
         {isModalOpen && selectedItem && (
           <div className="modal-overlay" onClick={closeModal}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>

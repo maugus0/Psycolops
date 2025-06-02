@@ -20,6 +20,9 @@ img.Titlefolio1 {
 img.padding-cust {
     padding-bottom: 20px;
 }
+img.padding-cust {
+    width: 68%;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
 img.padding-cust {
@@ -40,7 +43,21 @@ img.padding-cust {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    
+    .titlefolio-collage {
+    padding: 0px 50px;
+}
+.row.up-border {
+    padding: 50px 0px 50px;
+}
+.titlefolio-page .font-24 {
+    font-size: 20px;
+}
+img.padding-cust {
+    width: 61%;
+}
+img.tilefoio-10 {
+    width: 60%;
+}
 }
 
 
@@ -52,5 +69,11 @@ img.padding-cust {
     .titlefolio14{
         width: 100%;
     }
+    img.padding-cust {
+    width: 66%;
+}
+img.tilefoio-10 {
+    width: 45%;
+}
 
 }
