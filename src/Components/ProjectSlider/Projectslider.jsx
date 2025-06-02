@@ -41,6 +41,13 @@ const projects = [
     image: ProjectSlider4,
     link: "/#raya-page"
   },
+  {
+    title: "The School of Raya",
+    type: "Branding",
+    description: "Branding pitch for an international IB school in Bengaluru, reflecting themes of nature and flow.",
+    image: ProjectSlider4,
+    link: "/#raya-page"
+  },
 ];
 
 const ProjectSlider = () => {

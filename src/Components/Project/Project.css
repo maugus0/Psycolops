@@ -7,7 +7,7 @@
 .subtitle:before {
     content: "";
     display: block;
-    height: 29px;
+    height: 100%;
     width: 3px;
     background-color: #FF4C00;
     position: absolute;

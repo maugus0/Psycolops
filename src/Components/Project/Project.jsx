@@ -6,6 +6,7 @@ import Img1 from '../../Assets/Images/project1.png';
 import Img2 from '../../Assets/Images/project2.png';
 import Img3 from '../../Assets/Images/project3.png';
 import Img4 from '../../Assets/Images/project4.png';
+import TitleVideo from '../../Assets/Video/title-folio-video.mp4';
 import './Project.css';
 
 const projects = [
@@ -36,6 +37,14 @@ const projects = [
         subtitle: "App Design & Research",
         desc: "Branding pitch made for an IV league International Board school in Bengaluru <br/> to reflect their ideas of nature and flow",
         link: "/#raya-page"
+    },
+  
+    {
+        video: TitleVideo,
+        title: "Title Folio",
+        subtitle: "UX/UI & Motion",
+        desc: "A video showcase of interactive and animated product flows for a modern <br/> user onboarding experience.",
+        link: "/#video-project"
     }
 ];
 
@@ -68,8 +77,23 @@ const ProjectShowcase = () => {
                         >
                             <div className="col-md-10">
                                 <div className="position-relative">
-                                    <img src={project.img} alt={`${project.title} - ${project.subtitle}`} className="img-fluid rounded" />
-                                    <div className='display-flex'>
+                                    {project.img ? (
+                                        <img
+                                            src={project.img}
+                                            alt={`${project.title} - ${project.subtitle}`}
+                                            className="img-fluid rounded"
+                                        />
+                                    ) : (
+                                      <video
+                                                      src={TitleVideo}
+                                                      autoPlay
+                                                      loop
+                                                      muted
+                                                      playsInline
+                                                      style={{ width: '100%', height: 'auto', borderRadius:'20px' }}
+                                                  />
+                                    )}
+                                    <div className='display-flex mt-3'>
                                         <div className='width-custom'>
                                             <h5 className='subtitle title-link'>{project.title}</h5>
                                             <h6 className="color-grey">{project.subtitle}</h6>
@@ -92,7 +116,6 @@ const ProjectShowcase = () => {
                     <a href="/#work-page">
                         <button className='orange-button-with-poppin'>See More Work ></button>
                     </a>
-
                 </div>
             </div>
         </section>

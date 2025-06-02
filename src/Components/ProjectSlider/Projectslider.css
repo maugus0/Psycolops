@@ -129,9 +129,9 @@ h3.slider-heading {
     font-size: 14px; 
 }
 .subtitle:before {
-     height: 22px !important;
+    height: 100% !important;
     width: 2px !important;
-    top: 5px !important;
+    top: 0px !important;
 }
 .custom-size {
     height: 390px !important;
