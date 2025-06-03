@@ -10,6 +10,7 @@ import ProjectSlider1 from '../../Assets/Images/project1.png';
 import ProjectSlider2 from '../../Assets/Images/project2.png';
 import ProjectSlider3 from '../../Assets/Images/project3.png';
 import ProjectSlider4 from '../../Assets/Images/project4.png';
+import Titlefolio6 from '../../Assets/Images/title-folio-6.png';
 import RightArrowImage from '../../Assets/Images/RightArrowImage.png';
 
 const projects = [
@@ -42,11 +43,11 @@ const projects = [
     link: "/#raya-page"
   },
   {
-    title: "The School of Raya",
+    title: "Title folio",
     type: "Branding",
     description: "Branding pitch for an international IB school in Bengaluru, reflecting themes of nature and flow.",
-    image: ProjectSlider4,
-    link: "/#raya-page"
+    image: Titlefolio6,
+    link: "/#title-folio"
   },
 ];
 

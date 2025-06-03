@@ -44,7 +44,7 @@ const projects = [
         title: "Title Folio",
         subtitle: "UX/UI & Motion",
         desc: "A video showcase of interactive and animated product flows for a modern <br/> user onboarding experience.",
-        link: "/#video-project"
+        link: "/#title-folio"
     }
 ];
 
