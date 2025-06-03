@@ -43,7 +43,7 @@ const projects = [
         video: TitleVideo,
         title: "Title Folio",
         subtitle: "UX/UI & Motion",
-        desc: "A video showcase of interactive and animated product flows for a modern <br/> user onboarding experience.",
+        desc: "Title design and animation crafted for short films and a graphic novel. Focused on<br/> building visual atmosphere and reinforcing narrative tone through motion and typography.",
         link: "/#title-folio"
     }
 ];

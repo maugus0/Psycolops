@@ -24,6 +24,7 @@ import BibiVideo from '../../Assets/Video/bibi-video.mp4';
 import AtithiVideo from '../../Assets/Video/atithi-video.mp4'
 import HandDesign from '../../Assets/Video/video-18.mp4'
 import RamaVideo from '../../Assets/Video/video-17.mp4'
+import Puppet from '../../Assets/Video/puppet.gif'
 import './index.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -71,7 +72,7 @@ const ProjectMindSet = () => {
                     </>
                 }
 
-                title={`Making the process of planning treks more intuitive.`}
+                title={`Crafting Title Designs and Animation for Short Films`}
                 imageSrc={null}
             />
             <video
@@ -88,7 +89,9 @@ const ProjectMindSet = () => {
                     <div className="row up-border">
                         <p className='font-24'>Of Men & Puppets <span>(Graphic Novel by Rohit Issac Thomas)</span></p>
                         <div className="col-md-12 text-center">
-                            <img src={Titlefolio1} alt="" className='Titlefolio1' />
+                            <img 
+                            src={Puppet}
+                            alt="" />
                         </div>
                     </div>
                     <div className="row up-border ">
@@ -137,13 +140,14 @@ const ProjectMindSet = () => {
 
                     </div>
                     <div className="row up-border">
-                        <p className='font-24'>Babi (<span>Documentary by </span>Maithili Ajay Phatak)</p>
+                        <p className='font-24'>Darar(<span>Documentary by </span>Gaurav Pati)</p>
                         <div className="col-md-12 text-center">
                             <img src={Titlefolio10} alt="" className='tilefoio-10' />
                         </div>
                     </div>
                     <div className="row up-border">
-                        <p className='font-24 text-end'>Atithi Daivo Bhava (<span>Animated Short FIlm by</span> Pranav Holla)</p>
+                        
+                        <p className='font-24 text-end'>Rama (<span>Graphic novel by </span> Dipankar Talukdar)</p>
                         <div className="col-md-12">
                             <img src={Titlefolio11} alt="" className='w-100' />
                         </div>
@@ -154,7 +158,7 @@ const ProjectMindSet = () => {
                                 loop
                                 muted
                                 playsInline
-                                style={{ width: '100%', height: 'auto' }}
+                                style={{ width: '100%', height: '100%' }}
                             />
                         </div>
                         <div className="col-md-6">
@@ -162,7 +166,8 @@ const ProjectMindSet = () => {
                         </div>
                     </div>
                     <div className="row up-border">
-                        <p className='font-24'>Babi (<span>Documentary by </span>  Maithili Ajay Phatak)</p>
+                         
+                        <p className='font-24'>Staged (<span>Short Film by </span>Saundarya Toppo)</p>
                         <div className="col-md-6">
                                  <video
                                 src={HandDesign}

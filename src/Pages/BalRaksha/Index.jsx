@@ -88,14 +88,20 @@ const ProjectMindSet = () => {
         imageAnimation="fade-up"
       />
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
+      <div className="custom-container">
+<div className="col-md-12">
+        <video
+          src={Video1}
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ width: '100%', height: '70%', borderRadius: '8px' }}
+        />
+      </div>
 
-      <Image
-        src={BalrakshaGrey}
-        alt="Trekkit showcase image 1"
-        animation="fade-up"
-        className="custom-style"
-        duration={1500}
-      />
+      
+      </div>
       <div className='balraksha-concept'>
         <div className="custom-container">
           <p class="font-24 concept-line aos-init aos-animate" data-aos="fade-up">Concept</p>
@@ -146,7 +152,7 @@ const ProjectMindSet = () => {
                 loop
                 muted
                 playsInline
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: '100%', height: 'auto', borderRadius: '20px'}}
               />
             </div>
             <div className="col-md-6 margin-bottom-80">

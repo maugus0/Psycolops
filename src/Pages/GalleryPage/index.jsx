@@ -25,6 +25,9 @@ import Video15 from '../../Assets/Video/video-15.mp4';
 import Video16 from '../../Assets/Video/video-16.mp4';
 import Video17 from '../../Assets/Video/video-17.mp4';
 import Video18 from '../../Assets/Video/video-18.mp4';
+import Puppet from '../../Assets/Video/puppet.gif'
+import AtithiVideo from '../../Assets/Video/atithi-video.mp4';
+import TitleVideo from '../../Assets/Video/title-folio-video.mp4';
 
 const categories = ['All', 'Branding', 'Motion', 'Sketchbooks', 'Typography'];
 
@@ -38,7 +41,7 @@ const allItems = [
   { id: 18, category: 'Motion', video: Video6 },
   { id: 19, category: 'Motion', video: Video7 },
   { id: 20, category: 'Motion', video: Video8 },
-  { id: 21, category: 'Motion', video: Video9 },
+  { id: 21, category: 'Typography', video: Video9 },
   { id: 22, category: 'Motion', video: Video10 },
   { id: 23, category: 'Motion', video: Video11 },
   { id: 24, category: 'Motion', video: Video12 },
@@ -46,8 +49,11 @@ const allItems = [
   { id: 26, category: 'Motion', video: Video14 },
   { id: 27, category: 'Motion', video: Video15 },
   { id: 28, category: 'Motion', video: Video16 },
-  { id: 29, category: 'Motion', video: Video17 },
-  { id: 30, category: 'Motion', video: Video18 },
+  { id: 29, category: 'Typography', video: Video17 },
+  { id: 30, category: 'Typography', video: Video18 },
+   { id: 31, category: 'Typography', video: AtithiVideo},
+    { id: 32, category: 'Typography', video: TitleVideo},
+      { id: 33, category: 'Typography', img: Puppet },
 ];
 
 const WorkGallery = () => {

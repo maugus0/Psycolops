@@ -45,7 +45,7 @@ const projects = [
   {
     title: "Title folio",
     type: "Branding",
-    description: "Branding pitch for an international IB school in Bengaluru, reflecting themes of nature and flow.",
+    description: "Title design and animation crafted for short films and a graphic novel. Focused on building visual atmosphere and reinforcing narrative tone through motion and typography.",
     image: Titlefolio6,
     link: "/#title-folio"
   },

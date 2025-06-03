@@ -81,13 +81,6 @@ const ProjectRaya = () => {
       />
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
 
-      <Image
-        src={Raya1}
-        alt="Trekkit showcase image 1"
-        animation="fade-up"
-        className="custom-style"
-        duration={1500}
-      />
       <div className='balraksha-concept'>
         <div className="custom-container">
           <p class="font-24 concept-line aos-init aos-animate" data-aos="fade-down">Concept</p>

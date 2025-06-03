@@ -47,7 +47,7 @@ text-transform: capitalize;
 p.mt-2.color-grey:before {
     content: "";
     display: block;
-    height: 60px;
+    height: 100%;
     width: 2px;
     background-color: #B9B9B9;
     position: absolute;
