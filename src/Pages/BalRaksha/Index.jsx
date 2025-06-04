@@ -88,19 +88,18 @@ const ProjectMindSet = () => {
         imageAnimation="fade-up"
       />
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
-      <div className="custom-container">
-<div className="col-md-12">
-        <video
-          src={Video1}
-          autoPlay
-          loop
-          muted
-          playsInline
-          style={{ width: '100%', height: '70%', borderRadius: '8px' }}
-        />
-      </div>
-
-      
+      <div className="custom-container backgound-grey">
+        <div className="col-md-12">
+          <video
+            src={Video1}
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{ width: '100%', height: '70%' }}
+            className='video-1'
+          />
+        </div>
       </div>
       <div className='balraksha-concept'>
         <div className="custom-container">
@@ -139,7 +138,6 @@ const ProjectMindSet = () => {
         </div>
       </div>
       <div className="bal-raksha-collage">
-
         <div className="custom-container">
           <div className="row">
             <div className="col-md-12 margin-bottom-80">
@@ -152,7 +150,8 @@ const ProjectMindSet = () => {
                 loop
                 muted
                 playsInline
-                style={{ width: '100%', height: 'auto', borderRadius: '20px'}}
+                style={{ borderRadius: '20px' }}
+                className='taptop-device'
               />
             </div>
             <div className="col-md-6 margin-bottom-80">
@@ -181,7 +180,8 @@ const ProjectMindSet = () => {
                 loop
                 muted
                 playsInline
-                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+                style={{ borderRadius: '8px' }}
+                className='video-mobile'
               />
             </div>
             <div className="col-md-4">
@@ -198,7 +198,8 @@ const ProjectMindSet = () => {
                 loop
                 muted
                 playsInline
-                style={{ width: '100%', height: 'auto' }}
+                style={{ width: '100%', height: 'auto', borderRadius: '10px' }}
+                className='video-2'
               />
             </div>
           </div>

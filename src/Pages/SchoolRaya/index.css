@@ -4,6 +4,10 @@
  .fan-p strong {
     font-weight: bold;
 }
+.video-raya{
+    height: 970px;
+   
+}
 @media only screen and (min-width: 320px) and (max-width: 767px) {
       .school-raya-page img{
         width: 100%;
@@ -14,9 +18,17 @@
 .padding-bottom-60{
     padding-bottom: 40px;
 }
+.video-raya {
+    height: auto;
+    width: 100%;
+}
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .raya-4{
+        width: 100%;
+    }
+}
 
 
 @media only screen and (min-width: 1280px) and (max-width:1390px) {}
@@ -28,5 +40,8 @@
     }
     .raya-collage {
     padding: 40px 100px;
+}
+.video-raya {
+    height: 755px;
 }
 }

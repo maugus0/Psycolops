@@ -77,7 +77,8 @@ const ProjectRaya = () => {
         imageSrc={RayaBanner}
         imageAlt="Trekkit visual"
         textAnimation="fade-up"
-        imageAnimation="fade-down"
+        className="w-100"
+
       />
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
 
@@ -104,41 +105,42 @@ const ProjectRaya = () => {
         <div className="custom-container">
           <div className="row">
             <div className="col-md-12 padding-bottom-60">
-              <img src={Raya3} alt="" />
+              <img src={Raya3} alt="" className='w-100' />
             </div>
-            <div className="col-md-6 padding-bottom-60">
-              <img src={Raya4} alt="" />
+            <div className="col-md-6 padding-bottom-60 raya-4">
+              <img src={Raya4} alt="" className='w-100 ' />
             </div>
-            <div className="col-md-6 padding-bottom-60">
+            <div className="col-md-6 padding-bottom-60 text-end raya-4">
               <video
                 src={RayaVideo}
                 autoPlay
                 loop
                 muted
                 playsInline
-                style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
+                style={{ borderRadius: '8px' }}
+                className='video-raya'
               />
             </div>
             <div className="col-md-12 padding-bottom-60">
-              <img src={Raya6} alt="" />
+              <img src={Raya6} alt="" className='w-100' />
             </div>
             <div className="col-md-8 padding-bottom-60">
-              <img src={Raya7} alt="" />
+              <img src={Raya7} alt="" className='w-100' />
             </div>
             <div className="col-md-4 padding-bottom-60">
-              <img src={Raya8} alt="" />
+              <img src={Raya8} alt="" className='w-100' />
             </div>
             <div className="col-md-6 padding-bottom-60">
-              <img src={Raya9} alt="" />
+              <img src={Raya9} alt="" className='w-100' />
             </div>
             <div className="col-md-6 padding-bottom-60">
-              <img src={Raya10} alt="" />
+              <img src={Raya10} alt="" className='w-100' />
             </div>
             <div className="col-md-12 padding-bottom-60">
-              <img src={Raya11} alt="" />
+              <img src={Raya11} alt="" className='w-100' />
             </div>
             <div className="col-md-8 padding-bottom-60">
-              <img src={Raya12} alt="" />
+              <img src={Raya12} alt="" className='w-100'  />
             </div>
           </div>
         </div>

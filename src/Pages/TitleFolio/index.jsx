@@ -89,9 +89,11 @@ const ProjectMindSet = () => {
                     <div className="row up-border">
                         <p className='font-24'>Of Men & Puppets <span>(Graphic Novel by Rohit Issac Thomas)</span></p>
                         <div className="col-md-12 text-center">
-                            <img 
-                            src={Puppet}
-                            alt="" />
+                            <img
+                                src={Puppet}
+                                alt=""
+                                style={{ width: '100%' }}
+                            />
                         </div>
                     </div>
                     <div className="row up-border ">
@@ -107,7 +109,7 @@ const ProjectMindSet = () => {
                         <p className='font-24'>Babi (<span>Documentary by</span> Maithili Ajay Phatak)</p>
                         <div className="col-md-7">
                             <img src={Titlefolio4} alt="" className='w-100' />
-                             <video
+                            <video
                                 src={BibiVideo}
                                 autoPlay
                                 loop
@@ -128,7 +130,7 @@ const ProjectMindSet = () => {
                         </div>
                         <div className="col-md-7 text-center">
                             <img src={Titlefolio8} alt="" className='padding-cust' />
-                           <video
+                            <video
                                 src={AtithiVideo}
                                 autoPlay
                                 loop
@@ -146,7 +148,7 @@ const ProjectMindSet = () => {
                         </div>
                     </div>
                     <div className="row up-border">
-                        
+
                         <p className='font-24 text-end'>Rama (<span>Graphic novel by </span> Dipankar Talukdar)</p>
                         <div className="col-md-12">
                             <img src={Titlefolio11} alt="" className='w-100' />
@@ -166,10 +168,10 @@ const ProjectMindSet = () => {
                         </div>
                     </div>
                     <div className="row up-border">
-                         
+
                         <p className='font-24'>Staged (<span>Short Film by </span>Saundarya Toppo)</p>
                         <div className="col-md-6">
-                                 <video
+                            <video
                                 src={HandDesign}
                                 autoPlay
                                 loop

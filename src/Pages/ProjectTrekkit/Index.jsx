@@ -95,6 +95,7 @@ const ProjectMindSet = () => {
         muted
         playsInline
         style={{ width: '100%', height: 'auto'}}
+        className='d-flex'
       />
 
       <Concept
