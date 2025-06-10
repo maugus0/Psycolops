@@ -1,10 +1,10 @@
-.hand-container {
+/* .hand-container {
     width: 100%;
     padding: 80px 140px;
     background-image: url('../../Assets/Images/hand-image.png');
     background-repeat: no-repeat;
     background-position: right top;
-}
+} */
 
 button.download-button {
     background: #F15A24;
@@ -18,7 +18,9 @@ button.download-button {
     width: 100%;
     max-width: 300px;
 }
-
+.img-width{
+    width: 80%;
+}
 .margin-bottom-10rem {
     margin-bottom: 10rem;
 }

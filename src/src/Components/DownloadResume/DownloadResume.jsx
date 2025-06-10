@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './DownloadResume.css';
-import GreyImage from '../../Assets/Images/grey-img.png';
+import YashImage from '../../Assets/Images/yash-img.jpeg'
 import YashResume from '../../Assets/pdf/yash-cv.pdf';
 
 const ResumeSection = () => {
@@ -10,7 +10,7 @@ const ResumeSection = () => {
       <div className="custom-container">
         <div className="row">
           <div className="col-md-6">
-            <img src={GreyImage} alt="" className="grey-img" />
+            <img src={YashImage} alt="" className="grey-img img-width" />
           </div>
           <div className="col-md-6 color-white d-flex flex-column justify-content-end">
             <h4 className="font-52 margin-bottom-10rem">Hello!</h4>
