@@ -69,10 +69,9 @@
   }
   
 
-
-  .hand-container {
-    padding: 0px 140px;
-}
+  .padding-right-70{
+    padding-right: 100px;
+  }
 
 
   @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -147,14 +146,5 @@ button.download-button {
     font-size: 18px;
       margin-bottom: 20px;
 }
-
-@media only screen and (min-width: 1291px) and (max-width:1550px) {
-  .grey-content p {
-    font-size: 18px;
-      margin-bottom: 20px;
-}
-
-
-
 
 }
