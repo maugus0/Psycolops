@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import DownloadResume from '../../Components/DownloadResume/DownloadResume';
-import GreyImage from '../../Assets/Images/grey-img.png';
+import AhanImage from '../../Assets/Images/ahan_Image.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
 import BrandWorkHighlights from '../../Components/WorkExperience';
@@ -32,7 +32,7 @@ My long-term ambition is to be a nomadic creative director who is able to gifted
                             <p>I believe good design should be invisible - guiding without shouting - but also grab your attention the moment it needs to. I approach each project with curiosity, intent, and a bit of chaos (the good kind).</p>
                         </div>
                         <div className="col-md-4">
-                            <img src={GreyImage} alt="" className='greyimg' />
+                            <img src={AhanImage} alt="" className='AhanImage' />
                         </div>
                     </div>
                 </div>

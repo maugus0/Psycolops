@@ -1,7 +1,7 @@
 .hand-container {
     width: 100%;
     padding: 80px 140px;
-    background-image: url('../../Assets/Images/hand-image.png');
+    /* background-image: url('../../Assets/Images/hand-image.png'); */
     background-repeat: no-repeat;
     background-position: right top;
 }
