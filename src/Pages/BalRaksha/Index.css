@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     width: 60%;
+    text-align: center;
 }
 .fan-pic{
     width: 100%;
@@ -52,6 +53,29 @@ video.taptop-device {
  .backgound-grey{
     background-color: #111111;
  }
+.background-blue {
+    background: #59c5f0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    margin-right: 20px;
+}
+.padding-none{
+    padding: 0;
+    text-align: end;
+}
+.fan-sub p {
+    margin-top: 10px;
+}
+.balraksha-concept.installation video.video-mobile {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .balraksha-concept {
     padding: 40px 20px;
@@ -75,7 +99,7 @@ video.taptop-device {
     width: 100%;
 }
 .fan-sub img {
-    width: 65%;
+    width: auto;
 }
 .fan-sub p{
    font-size: 14px;
@@ -95,6 +119,22 @@ img.BalRakshaImg8 {
 .concept-line-1:after {
    display: none;
 }
+.custom-container video.video-mobile {
+    width: 100%;
+}
+
+video.taptop-device {
+    height: 100%;
+    width: 100%;
+}
+.background-blue {
+    width: 100%;
+    margin-right: 0;
+}
+
+
+
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -155,6 +195,14 @@ img.BalRakshaImg8 {
     left: 18%;
     width: 80%;
 }
+.custom-container video.video-mobile {
+    width: 100%;
+}
+.custom-container .col-md-6 {
+    width: 100%;
+}
+
+
 }
 
 

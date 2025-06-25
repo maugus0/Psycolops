@@ -88,7 +88,7 @@ const ProjectMindSet = () => {
         imageAnimation="fade-up"
       />
       <ProjectBrief left={leftContent} right={rightContent} delay={200} />
-      <video
+      {/* <video
         src={TrekkitVideo}
         autoPlay
         loop
@@ -96,23 +96,22 @@ const ProjectMindSet = () => {
         playsInline
         style={{ width: '100%', height: 'auto'}}
         className='d-flex'
-      />
+      /> */}
 
       <Concept
-        title="Concept"
-        heading={[
-          'Enjoy a seamless experience tailored to all kinds of trekkers.',
-        ]}
-        image={TrekitImg2}
-        imageAlt="Trekkit concept visual"
-        paragraphs={conceptParagraphs}
-        imageAnimation="fade-up"
-        textAnimation="fade-up"
-        imageDelay={0}
-        textDelay={200}
-        aosDuration={1200}
-      />
-
+  title="Concept"
+  heading={[
+    'Enjoy a seamless experience tailored to all kinds of trekkers.',
+  ]}
+  image={TrekkitVideo} 
+  imageAlt="Trekkit concept visual"
+  paragraphs={conceptParagraphs}
+  imageAnimation="fade-up"
+  textAnimation="fade-up"
+  imageDelay={0}
+  textDelay={200}
+  aosDuration={1200}
+/>
       <div>
         <Feature />
       </div>

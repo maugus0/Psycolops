@@ -78,7 +78,10 @@ h3.slider-heading {
         z-index: 10;
         top: auto;
     }
-
+.ServiceCard .card-hover:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
     .position-slider h4 {
         font-size: 34px;
         font-weight: 400;

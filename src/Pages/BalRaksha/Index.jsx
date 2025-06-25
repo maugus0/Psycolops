@@ -126,7 +126,7 @@ const ProjectMindSet = () => {
                 </div>
                 <div>
                   <img src={Fan3} alt="" />
-                  <p>Nutrition<br /> & Health</p>
+                  <p>Nutrition & Health</p>
                 </div>
                 <div>
                   <img src={Fan4} alt="" />
@@ -143,7 +143,7 @@ const ProjectMindSet = () => {
             <div className="col-md-12 margin-bottom-80">
               <img src={BalRakshaImg1} alt="" />
             </div>
-            <div className="col-md-6 margin-bottom-80">
+            <div className="col-md-6 margin-bottom-80 background-blue">
               <video
                 src={Video3}
                 autoPlay
@@ -154,7 +154,7 @@ const ProjectMindSet = () => {
                 className='taptop-device'
               />
             </div>
-            <div className="col-md-6 margin-bottom-80">
+            <div className="col-md-6 margin-bottom-80 padding-none">
               <img src={BalRakshaImg3} alt="" />
             </div>
             <div className="col-md-12 margin-bottom-80">

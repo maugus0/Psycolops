@@ -8,6 +8,8 @@ import Img3 from '../../Assets/Images/project3.png';
 import Img4 from '../../Assets/Images/project4.png';
 import TitleVideo from '../../Assets/Video/title-folio-video.mp4';
 import './Project.css';
+import { FaChevronRight } from "react-icons/fa";
+
 
 const projects = [
     {
@@ -34,7 +36,7 @@ const projects = [
     {
         img: Img4,
         title: "The School of Raya",
-        subtitle: "App Design & Research",
+        subtitle: "Branding And Experience",
         desc: "Branding pitch made for an IV league International Board school in Bengaluru <br/> to reflect their ideas of nature and flow",
         link: "/#raya-page"
     },
@@ -42,7 +44,7 @@ const projects = [
     {
         video: TitleVideo,
         title: "Title Folio",
-        subtitle: "UX/UI & Motion",
+        subtitle: "Typography and Motion",
         desc: "Title design and animation crafted for short films and a graphic novel. Focused on<br/> building visual atmosphere and reinforcing narrative tone through motion and typography.",
         link: "/#title-folio"
     }
@@ -84,14 +86,14 @@ const ProjectShowcase = () => {
                                             className="img-fluid rounded"
                                         />
                                     ) : (
-                                      <video
-                                                      src={TitleVideo}
-                                                      autoPlay
-                                                      loop
-                                                      muted
-                                                      playsInline
-                                                      style={{ width: '100%', height: 'auto', borderRadius:'20px' }}
-                                                  />
+                                    <video
+                                        src={TitleVideo}
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        style={{ width: '100%', height: 'auto', borderRadius:'20px' }}
+                                    />
                                     )}
                                     <div className='display-flex mt-3'>
                                         <div className='width-custom'>
@@ -114,7 +116,7 @@ const ProjectShowcase = () => {
 
                 <div className="botton">
                     <a href="/#work-page">
-                        <button className='orange-button-with-poppin'>See More Work ></button>
+                        <button className='orange-button-with-poppin'>See More Work <FaChevronRight /> </button>
                     </a>
                 </div>
             </div>

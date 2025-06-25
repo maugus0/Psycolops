@@ -50,7 +50,10 @@ section.Concept {
 .concept-1 img {
     width: 100%;
 }
-
+video.d-flex.video-trekkit {
+    height: 500px !important;
+    object-fit: cover;
+}
 /* Large screens (1290px to 1524px) */
 @media only screen and (min-width: 1270px) and (max-width: 1524px) {
     .concept-line:after {
