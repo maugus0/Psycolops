@@ -38,7 +38,7 @@ const MobileSlider = () => {
             data-aos-delay="300"
           >
             <h4 className="color-purple font-32 margin-left-30">Home Page</h4>
-            <img src={MobilesliderImg} alt="Mobile Slider" className="w-100" />
+            <img src={MobilesliderImg} alt="Mobile Slider" className="w-100 margin-top-60" />
             <p className="font-20 position-absolute absolute-2 circle-before">
               Notifications about <br />
               upcoming treks

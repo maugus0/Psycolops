@@ -2,11 +2,9 @@ import React, { useEffect } from 'react';
 import Header from '../../Components/Header/Header';
 import Banner from '../../Components/Banner/Banner';
 import ProjectBrief from '../../Components/ProjectBrief/Project';
-import Image from '../../Components/Image/Image';
 import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
 import Footer from '../../Components/Footer/Footer';
 import BalRakshaBaner from '../../Assets/Images/Bal-raksha-banner.png';
-import BalrakshaGrey from '../../Assets/Images/Balraksha-grey-banner.png';
 import FanPic from '../../Assets/Images/fan-pic.png';
 import Fan1 from '../../Assets/Images/fan-1.png';
 import Fan2 from '../../Assets/Images/fan-2.png';
@@ -20,12 +18,10 @@ import './Index.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import BalRakshaImg1 from '../../Assets/Images/bal-raksha-1.png';
-import BalRakshaImg2 from '../../Assets/Images/bal-raksha-2.png';
 import BalRakshaImg3 from '../../Assets/Images/bal-raksha-3.png';
 import BalRakshaImg4 from '../../Assets/Images/bal-raksha-4.png';
 import BalRakshaImg5 from '../../Assets/Images/bal-raksha-5.png';
 import BalRakshaImg6 from '../../Assets/Images/bal-raksha-6.png';
-import BalRakshaImg8 from '../../Assets/Images/BalRakshaImg8.png';
 
 
 const ProjectMindSet = () => {
@@ -141,7 +137,7 @@ const ProjectMindSet = () => {
         <div className="custom-container">
           <div className="row">
             <div className="col-md-12 margin-bottom-80">
-              <img src={BalRakshaImg1} alt="" />
+              <img src={BalRakshaImg1} alt="" className='w-100'/>
             </div>
             <div className="col-md-6 margin-bottom-80 background-blue">
               <video
@@ -150,7 +146,7 @@ const ProjectMindSet = () => {
                 loop
                 muted
                 playsInline
-                style={{ borderRadius: '20px' }}
+                style={{ borderRadius: '10px' }}
                 className='taptop-device'
               />
             </div>
@@ -180,7 +176,6 @@ const ProjectMindSet = () => {
                 loop
                 muted
                 playsInline
-                style={{ borderRadius: '8px' }}
                 className='video-mobile'
               />
             </div>
@@ -191,7 +186,7 @@ const ProjectMindSet = () => {
                 <p>More than just art, they offer partner organizations a way to showcase their commitment to child rights in a form that’s visible, emotional, and enduring.</p>
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 margin-top-40">
               <video
                 src={Video2}
                 autoPlay

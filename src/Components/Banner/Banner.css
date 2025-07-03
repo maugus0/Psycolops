@@ -62,6 +62,7 @@
     .padding-more {
         padding: 0px;
     }
+
     section.Introsection {
         width: 100%;
         padding: 40px 20px;
@@ -72,18 +73,28 @@
     .subtitle::before {
         top: -5px;
     }
+
     .padding-more {
         padding: 0px;
     }
+
     .project-showcase {
         background-color: #111111;
         width: 100%;
         padding: 40px 20px;
     }
+
     section.Introsection {
         width: 100%;
         padding: 40px 20px;
     }
+
+    .title {
+        font-size: 30px !important;
+    }
+        .subtitle {
+    font-size: 16px !important;
+}
 }
 
 
@@ -100,4 +111,5 @@
     .title {
         font-size: 28px;
     }
+
 }

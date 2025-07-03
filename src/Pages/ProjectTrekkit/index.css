@@ -70,10 +70,10 @@
     }
 
     .feature-content {
-        padding: 20px !important;
-        margin-bottom: 20px;
-        font-size: 16px;
-    }
+    padding: 20px !important;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
 
     .trekkit-page .concept-2 p {
         width: 100%;
@@ -85,7 +85,7 @@
     }
 
     .Concept .font-48 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .feature-item .font-24 {
@@ -102,10 +102,9 @@
         margin-bottom: 10px !important;
     }
 
-    .width-40 {
-        width: 80%;
-    }
-
+  .width-40 {
+    width: 50%;
+}
     .mobile-slider-2 {
         padding-top: 100px;
     }
@@ -211,6 +210,10 @@
     .trek-mobile {
         padding: 60px 20px;
     }
+    video.d-flex.video-trekkit {
+    height: 300px !important;
+  
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -240,11 +243,10 @@ p.font-24.color-black{
     padding: 40px 20px;
 }
 .shoe-2 {
-    width: 90%;
+    width: 50%;
+    margin-top: 40px;
 }
-.shoe-1 {
-    width: 90%;
-}
+
 .shoe-class {
     padding: 40px;
 }
@@ -276,23 +278,27 @@ p.font-24.color-black{
     bottom: -2%;
 }
 .absolute-1 {
-    left: 29%;
+    left: 68%;
 }
 .font-32 {
     font-size: 26px;
 }
 .margin-left-30 {
-    margin-left: 40px;
+    margin-left: 100px;
 }
 .mobile-slider {
     background-position: 43% 16%;
     background-size: 20%;
+    padding: 0px 10px 60px;
 }
 .trekkit-page {
     overflow: hidden;
 }
 .feature-content {
     padding: 20px  4px!important;
+}
+.margin-top-60 {
+    margin-top: 20px;
 }
 }
 

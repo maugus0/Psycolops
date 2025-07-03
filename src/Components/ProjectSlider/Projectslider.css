@@ -59,6 +59,11 @@ h3.slider-heading {
     overflow: hidden;
     padding: 40px 40px 10px;
 }
+.custom-size {
+    height: 300px !important;
+    width: 320px !important;
+    object-fit: cover !important;
+}
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {

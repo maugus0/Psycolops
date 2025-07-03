@@ -32,7 +32,8 @@ img.padding-cust {
     padding: 0px 20px;
 }
 .titlefolio-page  .font-24 {
-    font-size: 16px;
+    font-size: 12px;
+    text-align: center !important;
 }
 .row.up-border {
     padding: 30px 0px;
@@ -57,6 +58,9 @@ img.padding-cust {
 }
 img.tilefoio-10 {
     width: 60%;
+}
+.titlefolio-page .font-24 {
+    font-size: 18px !important;
 }
 }
 

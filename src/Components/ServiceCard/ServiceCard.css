@@ -11,7 +11,7 @@ section.ServiceCard {
 }
 
 p.last-service {
-    margin-bottom: 65px;
+    margin-bottom: 45px;
 }
 
 .font-family-arial {
@@ -30,7 +30,11 @@ p.last-p {
   transform: translateY(-10px) scale(1.03);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
-
+p.service-title {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 30px;
+}
 /* Responsive Styles */
 
 @media only screen and (min-width: 1025px) and (max-width: 1290px) {
@@ -88,9 +92,7 @@ p.last-p {
         margin-bottom: 35px !important;
     }
 
-   .ServiceCard p {
-    font-size: 22px !important;
-}
+
     p.last-p {
         font-size: 14px !important;
     }

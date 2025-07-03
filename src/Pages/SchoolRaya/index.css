@@ -1,33 +1,54 @@
-.padding-bottom-60{
+.padding-bottom-60 {
     padding-bottom: 70px;
 }
- .fan-p strong {
+
+.fan-p strong {
     font-weight: bold;
 }
-.video-raya{
+
+.video-raya {
     height: 970px;
-   
+
 }
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-      .school-raya-page img{
+    .school-raya-page img {
         width: 100%;
     }
+
     .raya-collage {
-    padding: 0px 20px;
-}
-.padding-bottom-60{
-    padding-bottom: 40px;
-}
-.video-raya {
-    height: auto;
-    width: 100%;
+        padding: 0px 20px;
+    }
+
+    .padding-bottom-60 {
+        padding-bottom: 40px;
+    }
+
+    .video-raya {
+        height: auto;
+        width: 100%;
+    }
+    .school-raya-page h1.title {
+    padding-right: 15px;
 }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .raya-4{
+    .raya-4 {
         width: 100%;
     }
+
+    .raya-collage {
+        padding: 0px 20px;
+    }
+    .video-raya {
+    height: auto;
+    width: 100%;
+}
+.school-raya-page .fan-pic {
+    width: 100%;
+    padding: 0px;
+}
 }
 
 
@@ -35,13 +56,15 @@
 
 @media only screen and (min-width: 1291px) and (max-width:1550px) {
 
-    .school-raya-page img{
+    .school-raya-page img {
         width: 100%;
     }
+
     .raya-collage {
-    padding: 40px 100px;
-}
-.video-raya {
-    height: 755px;
-}
+        padding: 40px 100px;
+    }
+
+    .video-raya {
+        height: 755px;
+    }
 }

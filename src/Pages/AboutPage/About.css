@@ -8,7 +8,7 @@
 .grey-content p {
     font-size: 24px;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-weight: 300;
 }
 
@@ -70,7 +70,7 @@
   
 
   .padding-right-70{
-    text-align: justify;
+    padding-right: 70px;
   }
 
 
@@ -79,10 +79,10 @@
     padding: 0px 20px;
 }
 
-    .padding-right-70 {
-    padding-right: 0px;
-}
 
+img.AhanImageFirst {
+    width: 100%;
+}
 .about-page .grey-content p {
     font-size: 14px;
     margin-bottom: 15px;

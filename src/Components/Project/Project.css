@@ -14,9 +14,11 @@
     left: -15px;
     top: 0px;
 }
+
 .project-showcase .subtitle {
-text-transform: capitalize;
+    text-transform: capitalize;
 }
+
 .subtitle {
     position: relative;
 }
@@ -127,6 +129,10 @@ a.title-link {
     font-family: 'Poppins';
 }
 
+h6.color-grey {
+    color: #ffffff;
+}
+
 /* Responsive Styles */
 @media only screen and (min-width: 1025px) and (max-width: 1290px) {
     .display-flex p {
@@ -140,26 +146,32 @@ a.title-link {
     .color-grey {
         font-size: 16px;
     }
+ 
 
 }
+
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
-.display-flex {
-    flex-direction: column;
-}
-p.mt-2.color-grey:before {
-  display: none;
-}
-.display-flex {
-    align-items: baseline;
-    gap: 0px !important;
-}
-.slick-dots li button:before {
-    color: #ffffff !important;
-    font-size: 12px !important;
-}
-.footer-link {
-    flex-direction: column;
-}
+    .display-flex {
+        flex-direction: column;
+    }
+
+    p.mt-2.color-grey:before {
+        display: none;
+    }
+
+    .display-flex {
+        align-items: baseline;
+        gap: 0px !important;
+    }
+
+    .slick-dots li button:before {
+        color: #ffffff !important;
+        font-size: 12px !important;
+    }
+
+    .footer-link {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -207,22 +219,33 @@ p.mt-2.color-grey:before {
     p.mt-2.color-grey:before {
         left: -30px;
     }
-.project-showcase .display-flex p {
-    width: 94%;
+
+    .project-showcase .display-flex p {
+        width: 94%;
+    }
+       .rounded {
+    height: 380px;
+    object-fit: cover;
+    width: 100%;
 }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
 
     .heading-project p {
-    font-size: 12px;
-    margin: 0px;
-}
-.project-showcase .heading-project {
-    padding: 0px 0px 40px;
-    align-items: center;
-    flex-direction: row;
-}
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    .project-showcase .heading-project {
+        padding: 0px 0px 40px;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    p.mt-2.color-grey {
+        margin: 0 0 0 12px !important;
+    }
 
     .heading-project p {
         text-align: center !important;
@@ -285,18 +308,21 @@ p.mt-2.color-grey:before {
     .orange-button-1 {
         font-size: 12px;
     }
- .padding-less {
-    padding: 5px 10px !important;
+
+    .padding-less {
+        padding: 5px 10px !important;
+    }
+
+   .project-2 p {
+    font-size: 12px;
 }
-.project-2 p {
-    font-size: 14px;
-}
-.project-1 p {
-    font-size: 14px;
-}
-.project-1 h5 {
-    font-size: 18px;
-}
+    .project-1 p {
+        font-size: 14px;
+    }
+
+    .project-1 h5 {
+        font-size: 18px;
+    }
 
 }
 

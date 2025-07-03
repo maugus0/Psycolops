@@ -4,15 +4,20 @@
     width: 60%;
     text-align: center;
 }
-.fan-pic{
+.fan-pic {
     width: 100%;
+    padding-right: 45px;
+    padding-bottom: 60px;
 }
 .fan-p{
     gap: 13px;
-    padding: 40px 0 70px;
+    padding: 0px 0 120px;
+}
+.col-md-12.margin-top-40 {
+    margin-top: 40px;
 }
 .balraksha-concept {
-    padding: 80px 0px;
+    padding: 40px 0px 0px;
     background: #111111;
 }
 .balraksha-concept .row{
@@ -73,15 +78,24 @@ video.taptop-device {
     height: 500px;
     object-fit: cover;
     width: 100%;
+    padding-right: 45px;
 }
 
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .balraksha-concept {
-    padding: 40px 20px;
+.balraksha-concept {
+    padding: 20px 20px;
+}
+.fan-pic {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 0px;
 }
 .balraksha-concept .font-24{
     font-size: 16px;
+}
+.col-md-12.margin-top-40 {
+    margin-top: 0px;
 }
 .d-flex {
     flex-direction: column;
@@ -99,13 +113,15 @@ video.taptop-device {
     width: 100%;
 }
 .fan-sub img {
-    width: auto;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
-.fan-sub p{
-   font-size: 14px;
+.fan-sub p {
+    font-size: 12px;
 }
 .fan-p.font-20 p {
-    font-size: 14px;
+    font-size: 12px;
 }
 img.BalRakshaImg8 {
     padding-top: 0px;
@@ -113,11 +129,16 @@ img.BalRakshaImg8 {
 .bal-raksha-collage {
     padding: 20px;
 }
-.margin-bottom-80{
+.margin-bottom-80 {
     margin-bottom: 40px;
+    padding: 0px 12px;
 }
 .concept-line-1:after {
    display: none;
+}
+.balraksha-concept.installation video.video-mobile {
+    height: 350px;
+    padding-right: 0;
 }
 .custom-container video.video-mobile {
     width: 100%;
@@ -131,10 +152,12 @@ video.taptop-device {
     width: 100%;
     margin-right: 0;
 }
-
-
-
-
+.d-flex.fan-p.font-24.weight-300 {
+    font-size: 12px;
+}
+.background-blue {
+    background: none;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -145,6 +168,9 @@ video.taptop-device {
     height: 26px;
 }
 .balraksha-concept {
+    padding: 40px 20px;
+}
+.banner-text.mindshare-text.aos-init.aos-animate {
     padding: 40px 20px;
 }
 .fan-p p {
@@ -201,8 +227,16 @@ img.BalRakshaImg8 {
 .custom-container .col-md-6 {
     width: 100%;
 }
-
-
+.fan-sub {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.fan-p p {
+    font-size: 14px !important;
+}
 }
 
 
@@ -235,7 +269,7 @@ p.role-up {
     font-size: 18px;
 }
 .fan-sub img {
-    width: 60% !important;
+    width: auto !important;
 }
 .fan-sub p {
     font-size: 14px !important;

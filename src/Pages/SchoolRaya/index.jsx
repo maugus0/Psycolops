@@ -5,13 +5,10 @@ import ProjectBrief from '../../Components/ProjectBrief/Project';
 import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
 import Footer from '../../Components/Footer/Footer';
 import RayaBanner from '../../Assets/Images/Raya-banner.png';
-import Image from '../../Components/Image/Image';
 import RayaVideo from '../../Assets/Video/video-school.mp4'
-import Raya1 from '../../Assets/Images/Raya-img-1.png';
 import Raya2 from '../../Assets/Images/Raya-img-2.png';
 import Raya3 from '../../Assets/Images/Raya-img-3.png';
 import Raya4 from '../../Assets/Images/Raya-img-4.png';
-import Raya5 from '../../Assets/Images/Raya-img-5.png';
 import Raya6 from '../../Assets/Images/Raya-img-6.png';
 import Raya7 from '../../Assets/Images/Raya-img-7.png';
 import Raya8 from '../../Assets/Images/Raya-img-8.png';
@@ -110,14 +107,14 @@ const ProjectRaya = () => {
             <div className="col-md-6 padding-bottom-60 raya-4">
               <img src={Raya4} alt="" className='w-100 ' />
             </div>
-            <div className="col-md-6 padding-bottom-60 text-end raya-4">
+            <div className="col-md-6 padding-bottom-60 text-end raya-4 ">
               <video
                 src={RayaVideo}
                 autoPlay
                 loop
                 muted
                 playsInline
-                style={{ borderRadius: '8px' }}
+                style={{ borderRadius: '20px' }}
                 className='video-raya'
               />
             </div>

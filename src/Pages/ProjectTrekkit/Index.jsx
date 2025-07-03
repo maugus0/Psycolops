@@ -7,8 +7,6 @@ import Concept from '../../Components/Concept/Concept';
 import ProjectSlider from '../../Components/ProjectSlider/Projectslider';
 import Footer from '../../Components/Footer/Footer';
 import TrekkitBanner from '../../Assets/Images/trekkit-banner.png';
-import TrekitImg1 from '../../Assets/Images/trekkit-img-1.png';
-import TrekitImg2 from '../../Assets/Images/Treekit-img-2.png';
 import Feature from '../../Components/Feature/Index';
 import MobileSlider from '../../Components/MobileSlider';
 import MobileShowcase from '../../Components/MobileShowCase';
