@@ -79,7 +79,9 @@
     padding: 0px 20px;
 }
 
-
+.padding-right-70 {
+    padding-right: 0px;
+}
 img.AhanImageFirst {
     width: 100%;
 }

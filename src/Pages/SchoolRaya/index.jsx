@@ -114,7 +114,6 @@ const ProjectRaya = () => {
                 loop
                 muted
                 playsInline
-                style={{ borderRadius: '20px' }}
                 className='video-raya'
               />
             </div>

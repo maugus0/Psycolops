@@ -100,10 +100,14 @@ video.d-flex.video-trekkit {
         padding-top: 0px;
     }
 
-    .col-md-6.concept-2 {
-        padding-left: 0px;
-        padding-top: 20px;
-    }
+ .col-md-6.concept-2 {
+    padding-left: 0;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+ .col-md-6.concept-2 .mt-4 {
+    margin-top: 0rem!important;
+}
 
     .concept-2 p {
         font-size: 12px !important;
@@ -113,10 +117,9 @@ video.d-flex.video-trekkit {
         font-size: 18px;
     }
 
-    section.Concept {
-        padding: 40px 35px;
-    }
-
+section.Concept {
+    padding: 40px 25px 0px;
+}
     .concept-1 {
         padding: 60px;
     }
