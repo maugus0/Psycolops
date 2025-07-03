@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64732fff.css",
-    "main.js": "/static/js/main.d90df3b8.js",
+    "main.css": "/static/css/main.036da6e4.css",
+    "main.js": "/static/js/main.76698562.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/video-3.mp4": "/static/media/video-3.b80ce9f6d8a9d2d60f9d.mp4",
     "static/media/video-13.mp4": "/static/media/video-13.143225acdac069a511b5.mp4",
@@ -10,6 +10,7 @@
     "static/media/video-8.mp4": "/static/media/video-8.7cf6215ab069ff39fe1c.mp4",
     "static/media/video-7.mp4": "/static/media/video-7.d0264ffbc5770a452062.mp4",
     "static/media/video-4.mp4": "/static/media/video-4.5de25e22fca0b53b601a.mp4",
+    "static/media/ahan-1.png": "/static/media/ahan-1.32002ec310509acb33ad.png",
     "static/media/title-folio-video.mp4": "/static/media/title-folio-video.0f992618ad60b21e7df9.mp4",
     "static/media/video-10.mp4": "/static/media/video-10.b914494b7f41155f6f66.mp4",
     "static/media/bal-video-2.mp4": "/static/media/bal-video-2.862e7fdd50528c1328c1.mp4",
@@ -43,9 +44,7 @@
     "static/media/title-folio-6.png": "/static/media/title-folio-6.9619cfc1fd6c219ce3ee.png",
     "static/media/title-folio-15.png": "/static/media/title-folio-15.e593727411764ff7ec29.png",
     "static/media/Raya-img-6.png": "/static/media/Raya-img-6.34261602165f8b76a9cf.png",
-    "static/media/trekkit-img-1.png": "/static/media/trekkit-img-1.3275f8363e6b0b0f8238.png",
     "static/media/mobileslider.png": "/static/media/mobileslider.951fec31a08b56e9aaca.png",
-    "static/media/title-folio-9.png": "/static/media/title-folio-9.9bdac746ba10cb81baec.png",
     "static/media/collage-2.png": "/static/media/collage-2.65ba5ddf23f7696de758.png",
     "static/media/Raya-img-8.png": "/static/media/Raya-img-8.83cab21c7dc517b74cf4.png",
     "static/media/mindshare-banner.png": "/static/media/mindshare-banner.f94273d069afd4006e23.png",
@@ -59,11 +58,7 @@
     "static/media/trek-1.png": "/static/media/trek-1.3a3053af062106dd972c.png",
     "static/media/project3.png": "/static/media/project3.276452151ba5f2eea5fb.png",
     "static/media/group.png": "/static/media/group.6b143b0b6ffc30d082a1.png",
-    "static/media/Treekit-img-2.png": "/static/media/Treekit-img-2.88c837ea3caf4d82fbd2.png",
     "static/media/Raya-img-3.png": "/static/media/Raya-img-3.330434f28de3a8a9f1b0.png",
-    "static/media/title-folio-5.png": "/static/media/title-folio-5.4529724596a2ee014746.png",
-    "static/media/BalRakshaImg8.png": "/static/media/BalRakshaImg8.bd057d41ae0ad6caa43f.png",
-    "static/media/bal-raksha-2.png": "/static/media/bal-raksha-2.f65078e60ec5641121fd.png",
     "static/media/safety.png": "/static/media/safety.0645a66b5f0f6ee76659.png",
     "static/media/mobile-gallery.png": "/static/media/mobile-gallery.214271acb390338ff975.png",
     "static/media/mobile-overview.png": "/static/media/mobile-overview.8bd1da5c4fae556c7a97.png",
@@ -74,7 +69,6 @@
     "static/media/infinite-img.png": "/static/media/infinite-img.342f7a8e0aa761620441.png",
     "static/media/bal-raksha-6.png": "/static/media/bal-raksha-6.7e0507a66fb8649f4b25.png",
     "static/media/signpost.png": "/static/media/signpost.e37fe1609b4e312be5e9.png",
-    "static/media/title-folio-12.png": "/static/media/title-folio-12.54f58a0206d5a33f2abb.png",
     "static/media/shoe-img-1.png": "/static/media/shoe-img-1.37fa93ba209cb41c31a0.png",
     "static/media/project4.png": "/static/media/project4.f869d28dc37e595f8364.png",
     "static/media/ahan_Image.jpg": "/static/media/ahan_Image.176814e77ae89b8bd2d3.jpg",
@@ -85,9 +79,7 @@
     "static/media/mobile-reviews.png": "/static/media/mobile-reviews.25abc06efcd855ddc655.png",
     "static/media/title-folio-2.png": "/static/media/title-folio-2.cdd901c8cd6958173649.png",
     "static/media/mobile-faq.png": "/static/media/mobile-faq.a1d316c8383dd9dc040b.png",
-    "static/media/title-folio-1.png": "/static/media/title-folio-1.d5d2d5243af69a1ba84d.png",
     "static/media/title-folio-4.png": "/static/media/title-folio-4.1be5bc0a1566547e6e46.png",
-    "static/media/Raya-img-5.png": "/static/media/Raya-img-5.5fcb0e8c2583c8f552f7.png",
     "static/media/Raya-banner.png": "/static/media/Raya-banner.93a2fc9877c68ae38300.png",
     "static/media/title-folio-10.png": "/static/media/title-folio-10.b0af651e19c8d26f6976.png",
     "static/media/title-folio-13.png": "/static/media/title-folio-13.fff986ca0ab2f34b40ad.png",
@@ -111,13 +103,13 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "static/media/responsive_icon.svg": "/static/media/responsive_icon.2289415165955fe820f8287ec14e8b27.svg",
-    "main.64732fff.css.map": "/static/css/main.64732fff.css.map",
-    "main.d90df3b8.js.map": "/static/js/main.d90df3b8.js.map",
+    "static/media/responsive_icon.svg": "/static/media/responsive_icon.32353997b7ae2ff5def6e020dcb8a8ee.svg",
+    "main.036da6e4.css.map": "/static/css/main.036da6e4.css.map",
+    "main.76698562.js.map": "/static/js/main.76698562.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64732fff.css",
-    "static/js/main.d90df3b8.js"
+    "static/css/main.036da6e4.css",
+    "static/js/main.76698562.js"
   ]
 }
